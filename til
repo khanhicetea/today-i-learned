@@ -1,0 +1,40 @@
+#!/bin/bash
+
+TODAY=`date +%Y-%m-%d`
+DEFAULT_EDITOR="vim"
+DEFAULT_REMOTE="origin"
+DEFAULT_BRANCH="master"
+
+if [ "$#" -eq 1 ] && [ $1 == "commit" ]; then
+    git add -A
+    git commit -m "These are what I learned in $TODAY."
+    read -r -p "Cool man ! Do you want to push it to repo ? [Y/n]" response
+    if [ -z $response ] || [[ $response =~ ^(yes|y|Y|YES) ]]; then
+        git push $DEFAULT_REMOTE $DEFAULT_BRANCH
+    fi
+    echo -e "\033[92mKeep moving forward !!!"
+    exit 0
+fi
+
+if [ "$#" -lt 2 ]; then
+    echo "You must enter at least 2 arguments, first is category, next one is subject, and the last is your Editor (default : $DEFAULT_EDITOR)"
+    exit 1
+fi
+
+CATEGORY=${1// /-}
+SUBJECT=${2// /-}
+EDITOR=${3:-$DEFAULT_EDITOR}
+MDFILE=$CATEGORY/$SUBJECT.md
+
+[ -d $CATEGORY ] || mkdir $CATEGORY
+[ -f $MDFILE ] && echo -e "\n\n--------------------" >> $MDFILE
+echo "Date : $TODAY" >> $MDFILE
+echo "Tags : #$CATEGORY" >> $MDFILE
+echo "## $2" >> $MDFILE
+echo -e "\n" >> $MDFILE
+
+echo -e "\n"
+echo -e "\tTell me what you learned today about '$1 : $2' ;) Then commit it by \033[92m./til commit"
+echo -e "\n"
+
+$EDITOR $MDFILE
