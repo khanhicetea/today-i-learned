@@ -1,5 +1,6 @@
-Date : 2015-11-30
-Tags : #chrome-dev #chrome-extension
+- Date : 2015-11-30
+- Tags : #chrome-dev #chrome-extension
+
 ## Debugging Chrome extension
 
 - To open directly the Console Dev Tools, press `Cmd + Opt + J` in MacOSX.
