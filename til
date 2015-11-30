@@ -28,8 +28,9 @@ MDFILE=$CATEGORY/$SUBJECT.md
 
 [ -d $CATEGORY ] || mkdir $CATEGORY
 [ -f $MDFILE ] && echo -e "\n\n--------------------" >> $MDFILE
-echo "Date : $TODAY" >> $MDFILE
-echo "Tags : #$CATEGORY" >> $MDFILE
+echo "- Date : $TODAY" >> $MDFILE
+echo "- Tags : #$CATEGORY" >> $MDFILE
+echo -e "\n" >> $MDFILE
 echo "## $2" >> $MDFILE
 echo -e "\n" >> $MDFILE
 
