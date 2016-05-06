@@ -1,6 +1,7 @@
 #!/bin/bash
 
-TODAY=`date +%Y-%m-%d`
+# Date, Time and the TimeZone
+TODAY=`date +%Y/%m/%d-%T-%Z`
 DEFAULT_EDITOR="vim"
 DEFAULT_REMOTE="origin"
 DEFAULT_BRANCH="master"
