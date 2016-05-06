@@ -30,12 +30,20 @@ MDFILE=$CATEGORY/$SUBJECT.md
 [ -f $MDFILE ] && echo -e "\n\n--------------------" >> $MDFILE
 echo "- Date : $TODAY" >> $MDFILE
 echo "- Tags : #$CATEGORY" >> $MDFILE
-echo -e "\n" >> $MDFILE
+# Avoid to add a addition newline
+echo -e "\n\c" >> $MDFILE
 echo "## $2" >> $MDFILE
-echo -e "\n" >> $MDFILE
+echo -e "\n\n" >> $MDFILE
 
 echo -e "\n"
 echo -e "\tTell me what you learned today about '$1 : $2' ;) Then commit it by \033[92m./til commit"
 echo -e "\n"
 
-$EDITOR $MDFILE
+# Check if the editor is the default one then launch it and put the cursor exactly at edit point
+if [ $EDITOR == $DEFAULT_EDITOR ]
+then
+    $EDITOR +6 $MDFILE
+else
+    $EDITOR $MDFILE
+fi
+
