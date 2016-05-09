@@ -31,7 +31,7 @@ This repo has a tool that help you to manage and write down what you learned in 
     ./til bash Bash=Conditional=Expression
     ```
 
-  DO NOT mix the `-` and `=` together!
+    DO NOT mix the `-` and `=` together!
   + It will create 1 file whose name which is the SUBJECT in lower case:  `bash/160510-bash-conditional-expression.md`.
   + **Write** it! **Save** it!
 - Step 3: Commit what you learned today by `./til commit`. After that, if you want to push it to _repository_, just **Enter**
