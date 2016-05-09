@@ -27,11 +27,29 @@ fi
 
 CATEGORY=${1// /-}
 SUBJECT=$2
+
+## In case you dont wanna type the quote mark when call til, just use
+## the - or = for word seperator.
+case $SUBJECT in
+    *-*)
+        FILENAME=$SUBJECT
+        SUBJECT=${SUBJECT//-/ }
+        ;;
+    *=*)
+        SUBJECT=${SUBJECT//=/ }
+        FILENAME=${SUBJECT// /-}
+        ;;
+    *\ *)
+        FILENAME=${SUBJECT// /-}
+        ;;
+esac
+
 EDITOR=${3:-$DEFAULT_EDITOR}
+
 ## Filename: The same as subject, except for replace all space with dash
 ## and lowercase all chars.
-FILENAME=${SUBJECT// /-}
 FILENAME=${FILENAME,,}
+
 ## The full filename will be something like below with pattern: %y%m%d-filename
 ## 160508-this-is-a-subject.md
 MDFILE=$CATEGORY/$CREATEDDATE-$FILENAME.md
@@ -46,8 +64,9 @@ echo "## $SUBJECT" >> $MDFILE
 echo -e "\n\n" >> $MDFILE
 
 echo -e "\n\c"
-echo -e "\tTell me what you learned today about '$1: $2' ;) Then commit it by \033[92m./til commit"
+echo -e "Tell me what you learned today about '$CATEGORY: $SUBJECT' ;)\nThen commit it by \033[92m./til commit"
 echo -e "\n\c"
+sleep 2
 
 # Check if the editor is the default one then launch it and put the cursor exactly at edit point
 if [ $EDITOR == $DEFAULT_EDITOR ]
