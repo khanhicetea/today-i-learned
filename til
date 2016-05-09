@@ -2,6 +2,9 @@
 
 # Date, Time and the TimeZone
 TODAY=`date +%Y/%m/%d-%T-%Z`
+CREATEDDATE=${TODAY:2:8}
+CREATEDDATE=${CREATEDDATE//\//}
+
 DEFAULT_EDITOR="vim"
 DEFAULT_REMOTE="origin"
 DEFAULT_BRANCH="master"
@@ -23,9 +26,15 @@ if [ "$#" -lt 2 ]; then
 fi
 
 CATEGORY=${1// /-}
-SUBJECT=${2// /-}
+SUBJECT=$2
 EDITOR=${3:-$DEFAULT_EDITOR}
-MDFILE=$CATEGORY/$SUBJECT.md
+## Filename: The same as subject, except for replace all space with dash
+## and lowercase all chars.
+FILENAME=${SUBJECT// /-}
+FILENAME=${FILENAME,,}
+## The full filename will be something like below with pattern: %y%m%d-filename
+## 160508-this-is-a-subject.md
+MDFILE=$CATEGORY/$CREATEDDATE-$FILENAME.md
 
 [ -d $CATEGORY ] || mkdir $CATEGORY
 [ -f $MDFILE ] && echo -e "\n---\n" >> $MDFILE
@@ -33,7 +42,7 @@ echo "- Date: $TODAY" >> $MDFILE
 echo "- Tags: #$CATEGORY" >> $MDFILE
 # Avoid to add a addition newline
 echo -e "\n\c" >> $MDFILE
-echo "## $2" >> $MDFILE
+echo "## $SUBJECT" >> $MDFILE
 echo -e "\n\n" >> $MDFILE
 
 echo -e "\n\c"
