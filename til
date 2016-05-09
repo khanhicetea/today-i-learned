@@ -28,7 +28,7 @@ EDITOR=${3:-$DEFAULT_EDITOR}
 MDFILE=$CATEGORY/$SUBJECT.md
 
 [ -d $CATEGORY ] || mkdir $CATEGORY
-[ -f $MDFILE ] && echo -e "\n\n--------------------" >> $MDFILE
+[ -f $MDFILE ] && echo -e "\n---\n" >> $MDFILE
 echo "- Date: $TODAY" >> $MDFILE
 echo "- Tags: #$CATEGORY" >> $MDFILE
 # Avoid to add a addition newline
@@ -43,7 +43,8 @@ echo -e "\n\c"
 # Check if the editor is the default one then launch it and put the cursor exactly at edit point
 if [ $EDITOR == $DEFAULT_EDITOR ]
 then
-    $EDITOR +6 $MDFILE
+    let "EDITLINE=`wc -l $MDFILE | cut -d" " -f1` - 1"
+    $EDITOR +$EDITLINE $MDFILE
 else
     $EDITOR $MDFILE
 fi
