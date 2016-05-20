@@ -10,12 +10,31 @@ This repo has a tool that help you to manage and write down what you learned in 
 
 # Instruction
 
-- Step 1 : Fork this repo (blank-repo with **only tool** and **readme file**).
-- Step 2 : Start writting down what you learned in **everyday**.
-  + Create a **topic** by : `./til [CATEGORY] [SUBJECT]` . Ex : `./til bash "Bash Conditional Expression"`
-  + It will create 1 file `bash/Bash-Conditional-Expression.md`
-  + **Write** it ! **Save** it !
-- Step 3 : Commit what you learned today by `./til commit` . After that, if you want to push it to _repository_, just **Enter**
+- Step 1: Fork this repo (blank-repo with **only tool** and **readme file**).
+- Step 2: Start writting down what you learned in **everyday**.
+  + Create a **topic** by:
+
+    ```bash
+    ./til <CATEGORY> <SUBJECT> [EDITOR]
+    ```
+
+    - Ex:
+
+    ```bash
+    ./til bash "Bash Conditional Expression" vim
+    ```
+
+    - If you tired of typing the quote mark:
+
+    ```bash
+    ./til bash Bash-Conditional-Expression
+    ./til bash Bash=Conditional=Expression
+    ```
+
+    DO NOT mix the `-` and `=` together!
+  + It will create 1 file whose name which is the SUBJECT in lower case:  `bash/160510-bash-conditional-expression.md`.
+  + **Write** it! **Save** it!
+- Step 3: Commit what you learned today by `./til commit`. After that, if you want to push it to _repository_, just **Enter**
 
 #License
 
