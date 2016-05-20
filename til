@@ -2,8 +2,6 @@
 
 # Date, Time and the TimeZone
 TODAY=`date +%Y/%m/%d-%T-%Z`
-CREATEDDATE=${TODAY:2:8}
-CREATEDDATE=${CREATEDDATE//\//}
 
 DEFAULT_EDITOR="vim"
 DEFAULT_REMOTE="origin"
@@ -53,9 +51,7 @@ EDITOR=${3:-$DEFAULT_EDITOR}
 ## and lowercase all chars.
 FILENAME=${FILENAME,,}
 
-## The full filename will be something like below with pattern: %y%m%d-filename
-## 160508-this-is-a-subject.md
-MDFILE=$CATEGORY/$CREATEDDATE-$FILENAME.md
+MDFILE=$CATEGORY/$FILENAME.md
 
 [ -d $CATEGORY ] || mkdir $CATEGORY
 [ -f $MDFILE ] && echo -e "\n---\n" >> $MDFILE
