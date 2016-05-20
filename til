@@ -42,6 +42,9 @@ case $SUBJECT in
     *\ *)
         FILENAME=${SUBJECT// /-}
         ;;
+    *)
+        FILENAME=${SUBJECT}
+        ;;
 esac
 
 EDITOR=${3:-$DEFAULT_EDITOR}
