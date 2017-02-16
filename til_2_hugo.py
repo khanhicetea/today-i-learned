@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 
 
-TIL_FOLDER = '../blog/content/til'
+TIL_FOLDER = '../khanhicetea.com/content/til'
 DOC_CONTENT = u'''+++
 date = "{post_date}"
 title = "What I learned in {learn_date}"
@@ -51,7 +51,7 @@ def convert_til_2_hugo(source, dest):
     for cat in categories:
         for file in os.listdir(os.path.join(source, cat)):
             raw = read_entire_file(os.path.join(source, cat, file))
-            parts = raw.split('--------------------')
+            parts = raw.split('/--------------------/')
             for part in parts:
                 article = parse_article(part.strip(), cat)
                 article_date = article['date'].date().isoformat()
@@ -91,4 +91,4 @@ def convert_til_2_hugo(source, dest):
 if __name__ == '__main__':
     cwd = os.getcwd()
     convert_til_2_hugo(cwd, os.path.join(cwd, TIL_FOLDER))
-    print "Converted !"
+    print("Converted !")
