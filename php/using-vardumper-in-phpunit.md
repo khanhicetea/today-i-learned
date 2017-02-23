@@ -25,4 +25,4 @@ phpunit_dump($magic_var1, $magic_var2, $magic_of_magic);
 // So much magic below, can't understand anymore
 ```
 
-![Magic](http://i.giphy.com/12NUbkX6p4xOO4.gif)
+![Magic](https://i.giphy.com/12NUbkX6p4xOO4.gif)
