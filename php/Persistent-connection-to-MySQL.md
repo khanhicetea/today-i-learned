@@ -6,7 +6,7 @@
 When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has `mysql.allow_persistent` or `mysqli.allow_persistent`. (PDO has the attribute `ATTR_PERSISTENT`)
 
 ```php
-$dbh = new PDO('DSN', 'user', 'QuenMatKhauCMNR', array(PDO::ATTR_PERSISTENT => TRUE));
+$dbh = new PDO('DSN', 'KhanhDepZai', 'QuenMatKhauCMNR', array(PDO::ATTR_PERSISTENT => TRUE));
 ```
 
 ## Object destruction
@@ -75,7 +75,7 @@ Instead of using a service object, we should use a factory design pattern for ea
 
 I learned this case when implement a web-consumer (long-run process) to run database migration for multiples databases.
 
-Before fixing this, our MySQL had been crashed because of a huge opened persistent connections.
+Before fixing this, our MySQL server had been crashed because of a huge opened connections.
 
 Now, everything works like a charm !
 
