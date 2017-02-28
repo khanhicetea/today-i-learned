@@ -6,7 +6,7 @@
 When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has `mysql.allow_persistent` or `mysqli.allow_persistent`. (PDO has the attribute `ATTR_PERSISTENT`)
 
 ```php
-$dbh = new PDO('DSN', 'KhanhDepZai', 'QuenMatKhauCMNR', array(PDO::ATTR_PERSISTENT => TRUE));
+$dbh = new PDO('DSN', 'KhanhDepZai', 'QuenMatKhauCMNR', [PDO::ATTR_PERSISTENT => TRUE]);
 ```
 
 ## Object destruction
