@@ -3,11 +3,13 @@
 
 ## ab failed responses
 
-When benchmarking a HTTP application server using `ab` tool, you shouldn't care about how many requests per second, but percentage of Success responses.
+When benchmarking a HTTP application server using `ab` tool, you shouldn't only care about how many requests per second, but percentage of Success responses.
 
 A notice that you must have the same content-length in responses, because `ab` tool will assume response having different content-length from `Document Length` (in ab result) is failed response.
 
 **Example**
+
+Webserver using Flask
 
 ```python
 from flask import Flask
@@ -21,6 +23,8 @@ def hello():
 if __name__ == "__main__":
     app.run()
 ```
+
+Benchmark using ab
 
 ```bash
 $ ab -n 1000 -c 5 http://127.0.0.1:5000/
