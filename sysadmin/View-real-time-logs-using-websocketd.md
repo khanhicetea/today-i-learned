@@ -14,7 +14,7 @@ Read its docs, I follow the ez tutorial `10 second tutorial` and see how cool do
 Let make something cool with this, we got a UNIX tool that print out to `stdout` in real-time with changes of end file.
 
 Ok cool, change the command to
-```shell
+```bash
 websocketd --port=8080 tail -f logs/web_access.log
 ```
 

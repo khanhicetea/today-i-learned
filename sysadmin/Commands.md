@@ -12,13 +12,13 @@ Eg:
 
 - List processes are using port 80 (need root if port between 1-1023)
 
-```shell
+```bash
 # sudo lsof -i:80
 ```
 
 - List processes are using /bin/bash
 
-```shell
+```bash
 # lsof /bin/bash
 ```
 

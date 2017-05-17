@@ -6,7 +6,7 @@
 
 Run this command, it will show top-10 frequently commands, [explain shell](http://explainshell.com/explain?cmd=history+%7C+awk+%27%7Bprint+%242%7D%27+%7C+sort+%7C+uniq+-c+%7C+sort+-nr+%7C+head)
 
-```shell
+```bash
 $ history | awk '{print $2}' | sort | uniq -c | sort -nr | head
 ```
 

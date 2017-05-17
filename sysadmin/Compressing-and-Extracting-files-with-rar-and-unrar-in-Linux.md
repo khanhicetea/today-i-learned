@@ -11,13 +11,13 @@
 
 Ubuntu :
 
-```shell
+```bash
 $ sudo apt install rar unrar
 ```
 
 Redhat ( using [RPMForge](http://repoforge.org/use/) )
 
-```shell
+```bash
 $ sudo yum install rar unrar
 ```
 
@@ -25,19 +25,19 @@ $ sudo yum install rar unrar
 
 Compressing files
 
-```shell
+```bash
 $ rar a result.rar file1 file2 file3 fileN
 ```
 
 Compressing dir and its subdirs (remember with trailing slash in the end)
 
-```shell
+```bash
 $ rar a -r result.rar folder1/
 ```
 
 Locking RAR file with password (adding `-p"THE_PASSWORD_YOU_WANT"`)
 
-```shell
+```bash
 $ rar a -p"0cOP@55w0rD" result.rar file1 file2 file3 fileN
 $ rar a -p"0cOP@55w0rD" -r result.rar folder1/
 ```
@@ -47,19 +47,19 @@ $ rar a -p"0cOP@55w0rD" -r result.rar folder1/
 
 Listing content of RAR file
 
-```shell
+```bash
 $ unrar l result.rar
 ```
 
 Extracting RAR file to current dir
 
-```shell
+```bash
 $ unrar e result.rar
 ```
 
 Extracting RAR file to current dir with fullpath
 
-```shell
+```bash
 $ unrar x result.rar
 ```
 
@@ -67,7 +67,7 @@ $ unrar x result.rar
 
 Asking itself !
 
-```shell
+```bash
 $ rar -?
 $ unrar -?
 ```
@@ -76,7 +76,7 @@ $ unrar -?
 
 > WHAT IF I TOLD U THAT A RAR FILE BIGGER 35 TIMES THAN ITS ORIGINAL FILE ?
 
-```shell
+```bash
 $  echo 'a' > a.txt
 $  rar a a.rar a.txt
 

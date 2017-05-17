@@ -6,6 +6,6 @@
 
 Can upload an file via FTP by curl tool with handy script :
 
-```shell
+```bash
 curl -T file_need_to_upload ftp://hostname --user user:passwd
 ```

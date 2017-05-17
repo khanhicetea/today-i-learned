@@ -8,7 +8,7 @@ Docker is the fast and clean way to run Linux programs.
 
 We can run a PHP project via PHP built-in server and Docker.
 
-```shell
+```bash
 docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php
 ```
 

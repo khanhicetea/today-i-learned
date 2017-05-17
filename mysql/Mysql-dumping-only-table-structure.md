@@ -7,7 +7,7 @@ Adding `-D` to dump only data structureA
 
 Example :
 
-```shell
+```bash
 $ mysqldump -h 127.0.0.1 -u root -p"something" -D database1 > db.sql
 ```
 
