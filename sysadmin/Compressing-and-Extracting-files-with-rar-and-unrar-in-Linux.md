@@ -65,7 +65,7 @@ $ unrar x result.rar
 
 ### WANT MORE ?
 
-Asking itself !
+Asking it !
 
 ```bash
 $ rar -?

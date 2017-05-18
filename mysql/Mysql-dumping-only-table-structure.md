@@ -3,7 +3,7 @@
 
 ## Mysql dumping only table structure
 
-Adding `-D` to dump only data structureA
+Adding `-D` to dump only data structure
 
 Example :
 
