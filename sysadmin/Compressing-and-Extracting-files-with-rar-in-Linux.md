@@ -1,24 +1,28 @@
 - Date : 2017-05-17
 - Tags : #sysadmin #compressing #rar
 
-## Compressing and Extracting files with rar and unrar in Linux
+## Compressing and Extracting files with rar in Linux
 
 ### zip and tar disadvantages
 
 **All unicode filename will be transform to weird character, so it makes broken paths and broken links**
+
+### Notice
+
+**rar** and **unrar** in Linux isn't same version and so don't use **unrar** to extract archived file by **rar** (It causes invalid full paths)
 
 ### Installation
 
 Ubuntu :
 
 ```bash
-$ sudo apt install rar unrar
+$ sudo apt install rar
 ```
 
 Redhat ( using [RPMForge](http://repoforge.org/use/) )
 
 ```bash
-$ sudo yum install rar unrar
+$ sudo yum install rar
 ```
 
 ### Compressing files, folder
@@ -48,19 +52,19 @@ $ rar a -p"0cOP@55w0rD" -r result.rar folder1/
 Listing content of RAR file
 
 ```bash
-$ unrar l result.rar
+$ rar l result.rar
 ```
 
 Extracting RAR file to current dir
 
 ```bash
-$ unrar e result.rar
+$ rar e result.rar
 ```
 
 Extracting RAR file to current dir with fullpath
 
 ```bash
-$ unrar x result.rar
+$ rar x result.rar
 ```
 
 ### WANT MORE ?
@@ -69,7 +73,6 @@ Asking it !
 
 ```bash
 $ rar -?
-$ unrar -?
 ```
 
 ### BONUS
