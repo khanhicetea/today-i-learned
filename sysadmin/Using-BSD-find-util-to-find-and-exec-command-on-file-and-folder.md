@@ -37,7 +37,7 @@ $ find . -type d -exec chmod 755 {} \;
 *Check syntax all PHP files*
 
 ```bash
-$ find . -type f -name "*.php" -exec php -l {} \; | grep -v 'No syntax errors detectedA
+$ find . -type f -name "*.php" -exec php -l {} \; | grep -v 'No syntax errors detected'
 ```
 
 *Removed all log files*
