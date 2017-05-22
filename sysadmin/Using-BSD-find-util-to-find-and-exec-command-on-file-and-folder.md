@@ -17,13 +17,13 @@ $ find [find_path] -name "*.php" -type [file_type] -exec [command] {} \;
 
 **Where `file_type`** is :
 
-- b       block special
-- c       character special
-- d       directory
-- f       regular file
-- l       symbolic link
-- p       FIFO
-- s       socket
+- b : block special
+- c : character special
+- d : directory
+- f : regular file
+- l : symbolic link
+- p : FIFO
+- s : socket
 
 **Examples:**
 
