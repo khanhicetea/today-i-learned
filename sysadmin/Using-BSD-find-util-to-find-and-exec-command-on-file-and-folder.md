@@ -1,4 +1,4 @@
-- Date : 2017-05-23
+- Date : 2017-05-22
 - Tags : #sysadmin #shell #util
 
 ## Using BSD find util to find and exec command on file and folder
