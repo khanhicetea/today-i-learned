@@ -9,3 +9,5 @@ Heroku will make a service down if no received request come. We can use a cronjo
 
 Cronjob check health service : pingdom, statuscake, port-monitor, uptimerobot
 
+**Btw, I don't recommend you keep service live but no use, it make Heroku infrastructure heavy and THAT'S NOT FAIR for them !**
+
