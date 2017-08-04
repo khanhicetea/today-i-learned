@@ -5,7 +5,7 @@
 
 The sophisticated http client in Python is `requests`, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
 
-Btw, at this moment it doesn't support HTTP/2 protocol (actually we often doesn't need its `Server Push` or `Multi resource stream` features). But something the API endpoint only support HTTP/2 like Akamai Load Balacing service.
+Btw, at this moment it doesn't support HTTP/2 protocol (actually we often doesn't need its `Server Push` or `Multi resource stream` features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.
 
 The hero is new library named `hyper`, it has been developing to support full HTTP/2 specs. But if all we need is requesting single request to a HTTP/2 server. It works like a charm.
 
@@ -32,7 +32,7 @@ This mean any url has prefix `https://` will be hanlded by **HTTP20Adaper** of *
 
 ### Notice
 
-If you run above example, you can see the result is
+If you run above example, you will see the result
 
 ```
 200

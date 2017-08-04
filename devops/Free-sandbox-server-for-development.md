@@ -5,9 +5,9 @@
 
 We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
 
-Heroku will make a service down if no received request come. We can use a cronjob-like service to check health service and keep it live !!! ;)
+Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
 
-Cronjob check health service : pingdom, statuscake, port-monitor, uptimerobot
+Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
 
-**Btw, I don't recommend you keep service live but no use, it make Heroku infrastructure heavy and THAT'S NOT FAIR for them !**
+**Btw, I don't recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT'S NOT FAIR for them !**
 
