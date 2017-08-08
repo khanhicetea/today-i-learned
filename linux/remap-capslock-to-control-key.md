@@ -1,4 +1,4 @@
-- Date : 2017-08-07
+- Date : 2017-08-08
 - Tags : #linux #keyboard
 
 ## Remap Capslock to Control key
