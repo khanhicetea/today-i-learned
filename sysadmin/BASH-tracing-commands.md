@@ -3,7 +3,7 @@
 
 ## BASH tracing commands
 
-Thanks Hiro Ishii teach me this
+Thank Hiro Ishii for teaching me this
 
 `set -x` will print all running commands in your bash script
 
