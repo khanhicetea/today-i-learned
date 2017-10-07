@@ -7,10 +7,10 @@ You can use `netcat` or `nc` as a debugging TCP tool. It can be a TCP sender and
 
 Examples :
 
-Check if port is listening
+Scan ports
 
 ```bash
-$ nc 127.0.0.1 8888
+$ nc -zv 127.0.0.1 20-80
 ```
 
 Check redis status
