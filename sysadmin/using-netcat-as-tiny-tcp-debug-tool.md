@@ -22,7 +22,7 @@ $ echo 'info' | nc 127.0.0.1 6379
 Retrieve http response
 
 ```bash
-$ printf "GET /xinchao HTTP/1.1\r\n\r\n" | nc 127.0.0.1 8000 | cat xinchao.txt
+$ printf "GET /xinchao HTTP/1.1\r\n\r\n" | nc 127.0.0.1 8000 | tee xinchao.txt
 ```
 
 Change to IPv6 : `nc -6`
