@@ -12,58 +12,58 @@ This repo has a tool that help you to manage and write down what you learned in 
 
 | What I learned | :point_down: |
 | -------- | -------- |
-| **bash** | 1 articles |
+| **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
-| **chrome-dev** | 1 articles |
+| **chrome-dev** [ 1 articles ] | |
 | [Debugging Chrome extension](chrome-dev/Debugging-Chrome-extension.md) | 2015-11-30 |
-| **database** | 2 articles |
+| **database** [ 2 articles ] | |
 | [Basics about sqlite command line tool](database/Basics-about-sqlite-command-line-tool.md) | 2017-04-25 |
 | [Indexes on multiple columns](database/indexes-on-multiple-columns.md) | 2017-10-13 |
-| **devops** | 3 articles |
+| **devops** [ 3 articles ] | |
 | [Checking forced push conflicts on source code in auto testing](devops/Checking-forced-push-conflicts-on-source-code-in-auto-testing.md) | 2017-05-19 |
 | [Free sandbox server for development](devops/Free-sandbox-server-for-development.md) | 2017-08-04 |
 | [Using netcat to wait a TCP service](devops/using-netcat-to-wait-a-tcp-service.md) | 2017-10-13 |
-| **docker** | 2 articles |
+| **docker** [ 2 articles ] | |
 | [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
-| **git** | 1 articles |
+| **git** [ 1 articles ] | |
 | [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
-| **http** | 1 articles |
+| **http** [ 1 articles ] | |
 | [ab failed responses](http/ab-failed-responses.md) | 2017-04-21 |
-| **java** | 1 articles |
+| **java** [ 1 articles ] | |
 | [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
-| **javascript** | 2 articles |
+| **javascript** [ 2 articles ] | |
 | [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
 | [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
-| **linux** | 3 articles |
+| **linux** [ 3 articles ] | |
 | [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
 | [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
 | [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
-| **mac-osx** | 1 articles |
+| **mac-osx** [ 1 articles ] | |
 | [Shortcut keyboard improve productivity](mac-osx/Shortcut-keyboard-improve-productivity.md) | 2015-11-30 |
-| **mysql** | 5 articles |
+| **mysql** [ 5 articles ] | |
 | [Index is useless when use function on indexed field](mysql/Index-is-useless-when-use-function-on-indexed-field.md) | 2015-12-01 |
 | [Mycli : a new good cli MySql Client](mysql/mycli-:-a-new-good-cli-mysql-client.md) | 2017-09-01 |
 | [Mysql dumping only table structure](mysql/Mysql-dumping-only-table-structure.md) | 2017-05-17 |
 | [String problems can cause logical bugs in application](mysql/string-problems-can-cause-logical-bugs-in-application.md) | 2017-02-17 |
 | [UNION vs UNION ALL](mysql/union-vs-union-all.md) | 2017-02-23 |
-| **networking** | 2 articles |
+| **networking** [ 2 articles ] | |
 | [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
 | [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
-| **php** | 6 articles |
+| **php** [ 6 articles ] | |
 | [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
 | [F-cking stupid limit of input vars](php/Fcking-stupid-limit-of-input-vars.md) | 2016-03-08 |
 | [Persistent connection to MySQL](php/Persistent-connection-to-MySQL.md) | 2017-02-28 |
 | [realpath function](php/realpath-function.md) | 2017-08-06 |
 | [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
 | [Using VarDumper in PHPUnit](php/using-vardumper-in-phpunit.md) | 2017-02-23 |
-| **python** | 3 articles |
+| **python** [ 3 articles ] | |
 | [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
 | [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
 | [String Format Unicode params](python/String-Format-Unicode-params.md) | 2015-12-01 |
-| **quote** | 1 articles |
+| **quote** [ 1 articles ] | |
 | [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
-| **sysadmin** | 24 articles |
+| **sysadmin** [ 24 articles ] | |
 | [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
 | [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
 | [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
@@ -88,10 +88,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
 | [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
 | [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
-| **tools** | 2 articles |
+| **tools** [ 2 articles ] | |
 | [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
 | [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
-| **web** | 2 articles |
+| **web** [ 2 articles ] | |
 | [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
 | [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
 

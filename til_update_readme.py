@@ -49,7 +49,7 @@ def convert_til_2_readme(source, template_file, dest):
                 article['file_name'] = file
                 data[cat].append(article)
         
-        content += "| **{}** | {} articles |\n".format(cat, len(data[cat]))
+        content += "| **{}** [ {} articles ] | |\n".format(cat, len(data[cat]))
         for article in data[cat]:
             content += "| [{}]({}/{}) | {} |\n".format(
                 article['title'], cat, article['file_name'],
