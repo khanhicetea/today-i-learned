@@ -26,8 +26,9 @@ This repo has a tool that help you to manage and write down what you learned in 
 | **docker** [ 2 articles ] | |
 | [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
-| **git** [ 1 articles ] | |
+| **git** [ 2 articles ] | |
 | [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
+| [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
 | **http** [ 1 articles ] | |
 | [ab failed responses](http/ab-failed-responses.md) | 2017-04-21 |
 | **java** [ 1 articles ] | |
