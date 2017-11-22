@@ -23,9 +23,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Checking forced push conflicts on source code in auto testing](devops/Checking-forced-push-conflicts-on-source-code-in-auto-testing.md) | 2017-05-19 |
 | [Free sandbox server for development](devops/Free-sandbox-server-for-development.md) | 2017-08-04 |
 | [Using netcat to wait a TCP service](devops/using-netcat-to-wait-a-tcp-service.md) | 2017-10-13 |
-| **docker** [ 2 articles ] | |
+| **docker** [ 3 articles ] | |
 | [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
+| [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
 | **git** [ 2 articles ] | |
 | [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
 | [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
