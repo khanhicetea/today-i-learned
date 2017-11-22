@@ -10,6 +10,8 @@ This repo has a tool that help you to manage and write down what you learned in 
 
 # Table of Contents
 
+| What I learned | :point_down: |
+| -------- | -------- |
 | **bash** | 1 articles |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | **chrome-dev** | 1 articles |
