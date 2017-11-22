@@ -1,0 +1,4 @@
+#!/bin/sh
+
+python til_update_readme.py
+git add README.md
