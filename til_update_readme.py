@@ -48,6 +48,7 @@ def convert_til_2_readme(source, template_file, dest):
                 article = parse_article(part.strip(), cat)
                 article['file_name'] = file
                 data[cat].append(article)
+        data[cat].sort(key=lambda a: a['date'])
         
         content += "| **{}** [ {} articles ] | |\n".format(cat, len(data[cat]))
         for article in data[cat]:
