@@ -1,4 +1,6 @@
 #!/bin/sh
 
+echo 'Running pre-commit hook' 
+
 python til_update_readme.py
 git add README.md
