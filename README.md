@@ -12,7 +12,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 
 | What I learned | :point_down: |
 | -------- | -------- |
-| Top 5 recent learning | |
+| :new: **Top 5 recent learning** | |
 | [sysadmin] [Getting your external IP](web/Getting-your-external-IP.md) | 2017-11-24 |
 | [docker] [Reduce init time MySQL docker image](web/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
 | [git] [using git hooks to improve working flow](web/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
