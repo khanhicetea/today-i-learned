@@ -8,9 +8,9 @@ Today-I-Learned (TIL) is inspired by Thoughbot, TIL is a repository for everyone
 
 This repo has a tool that help you to manage and write down what you learned in scientific way.
 
-# Table of Contents
+# What I learned
 
-| What I learned | :point_down: |
+| Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
 | [sysadmin] [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |

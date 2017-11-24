@@ -37,7 +37,7 @@ def convert_til_2_readme(source, template_file, dest):
     categories = [f for f in os.listdir(source) if os.path.isdir(f) and f not in excluded_folders]
     categories.sort()
     all_articles = []
-    content = "| What I learned | :point_down: |\n| -------- | -------- |\n| :new: **Top 5 recent learning** | |\n"
+    content = "| Table of Contents | :point_down: |\n| -------- | -------- |\n| :new: **Top 5 recent learning** | |\n"
     cat_content = ""
 
     for cat in categories:
