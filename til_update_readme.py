@@ -36,26 +36,35 @@ def convert_til_2_readme(source, template_file, dest):
     excluded_folders = [".git", ".vscode"]
     categories = [f for f in os.listdir(source) if os.path.isdir(f) and f not in excluded_folders]
     categories.sort()
-    data = dict()
-    content = "| What I learned | :point_down: |\n| -------- | -------- |\n"
+    all_articles = []
+    content = "| What I learned | :point_down: |\n| -------- | -------- |\n| Top 5 recent learning | |\n"
+    cat_content = ""
 
     for cat in categories:
-        data[cat] = []
+        cat_articles = []
         for file in os.listdir(os.path.join(source, cat)):
             raw = read_entire_file(os.path.join(source, cat, file))
             parts = raw.split('/--------------------/')
             for part in parts:
                 article = parse_article(part.strip(), cat)
                 article['file_name'] = file
-                data[cat].append(article)
-        data[cat].sort(key=lambda a: a['date'])
+                cat_articles.append(article)
+                all_articles.append(article)
+        cat_articles.sort(key=lambda a: a['date'])
         
-        content += "| **{}** [ {} articles ] | |\n".format(cat, len(data[cat]))
-        for article in data[cat]:
-            content += "| [{}]({}/{}) | {} |\n".format(
+        cat_content += "| **{}** [ {} articles ] | |\n".format(cat, len(cat_articles))
+        for article in cat_articles:
+            cat_content += "| [{}]({}/{}) | {} |\n".format(
                 article['title'], cat, article['file_name'],
                 article['date'].strftime('%Y-%m-%d'))
 
+    all_articles.sort(reverse=True, key=lambda a: a['date'])
+    for article in all_articles[0:5]:
+        content += "| [{}] [{}]({}/{}) | {} |\n".format(
+            article['category'], article['title'], cat, article['file_name'],
+            article['date'].strftime('%Y-%m-%d'))
+
+    content += cat_content
     format_content = read_entire_file(template_file)
     write_content = format_content.replace('{TOC}', content)
     write_entire_file(dest, write_content.decode('utf-8'))
