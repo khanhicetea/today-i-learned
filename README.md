@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | What I learned | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [sysadmin] [Getting your external IP](web/Getting-your-external-IP.md) | 2017-11-24 |
-| [docker] [Reduce init time MySQL docker image](web/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
-| [git] [using git hooks to improve working flow](web/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
-| [linux] [Using watch command to tracking changes in period time](web/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
-| [database] [Indexes on multiple columns](web/indexes-on-multiple-columns.md) | 2017-10-13 |
+| [sysadmin] [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
+| [docker] [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
+| [git] [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
+| [linux] [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
+| [database] [Indexes on multiple columns](database/indexes-on-multiple-columns.md) | 2017-10-13 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |

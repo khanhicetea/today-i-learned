@@ -55,13 +55,14 @@ def convert_til_2_readme(source, template_file, dest):
         cat_content += "| :books: **{}** [ {} articles ] | |\n".format(cat, len(cat_articles))
         for article in cat_articles:
             cat_content += "| [{}]({}/{}) | {} |\n".format(
-                article['title'], cat, article['file_name'],
+                article['title'], article['category'], article['file_name'],
                 article['date'].strftime('%Y-%m-%d'))
 
     all_articles.sort(reverse=True, key=lambda a: a['date'])
     for article in all_articles[0:5]:
         content += "| [{}] [{}]({}/{}) | {} |\n".format(
-            article['category'], article['title'], cat, article['file_name'],
+            article['category'], article['title'],
+            article['category'], article['file_name'],
             article['date'].strftime('%Y-%m-%d'))
 
     content += cat_content
