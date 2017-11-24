@@ -60,9 +60,9 @@ def convert_til_2_readme(source, template_file, dest):
 
     all_articles.sort(reverse=True, key=lambda a: a['date'])
     for article in all_articles[0:5]:
-        content += "| [{}] [{}]({}/{}) | {} |\n".format(
-            article['category'], article['title'],
-            article['category'], article['file_name'],
+        content += "| [{}]({}/{}) [{}] | {} |\n".format(
+            article['title'], article['category'],
+            article['file_name'], article['category'],
             article['date'].strftime('%Y-%m-%d'))
 
     content += cat_content
