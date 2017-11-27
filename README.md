@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) [git] | 2017-11-27 |
 | [Getting your external IP](sysadmin/Getting-your-external-IP.md) [sysadmin] | 2017-11-24 |
 | [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) [docker] | 2017-11-22 |
 | [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) [git] | 2017-11-22 |
 | [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) [linux] | 2017-10-20 |
-| [Indexes on multiple columns](database/indexes-on-multiple-columns.md) [database] | 2017-10-13 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -33,9 +33,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
 | [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
-| :books: **git** [ 2 articles ] | |
+| :books: **git** [ 3 articles ] | |
 | [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
 | [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
+| [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) | 2017-11-27 |
 | :books: **http** [ 1 articles ] | |
 | [ab failed responses](http/ab-failed-responses.md) | 2017-04-21 |
 | :books: **java** [ 1 articles ] | |
