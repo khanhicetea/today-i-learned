@@ -9,8 +9,8 @@ from datetime import datetime
 TIL_FOLDER = '../khanhicetea.com/content/til'
 DOC_CONTENT = u'''+++
 date = "{post_date}"
-title = "What I learned in {learn_date}"
-description = "I learned in {learn_date} about {topics}"
+title = "#TIL {learn_date} : {topics}"
+description = "I learned in {learn_date} about {titles}"
 categories = {categories}
 tags = {tags}
 +++
@@ -32,11 +32,14 @@ def parse_article(content, category):
     pos1 = content.find('- Date : ')
     pos2 = content.find('- Tags : ', pos1)
     pos3 = content.find("\n", pos2)
+    pos4 = content.find("##", pos3)
+    pos5 = content.find("\n", pos4)
     post = {
         "date": datetime.strptime(content[pos1+9:pos2].strip(), "%Y-%m-%d"),
         "category": category,
         "tags": [t[1:] for t in content[pos2+9:pos3].strip().split(' ')],
-        "content": content[pos3:].strip()
+        "content": content[pos3:].strip(),
+        "title": content[pos4+3:pos5].strip(),
     }
 
     return post
@@ -65,17 +68,20 @@ def convert_til_2_hugo(source, dest):
         content = ""
         categories = ['Today I learned']
         tags = ['til']
+        titles = []
 
         for article in articles:
             content += "\n# " + article['category'].upper()
             content += "\n\n" + article['content'] + "\n"
 
+            titles.append(article['title'])
             categories.append(article['category'])
             for tag in article['tags']:
                 tags.append(tag)
 
         raw_file = DOC_CONTENT.format(
             post_date=article_date.isoformat(),
+            titles="; ".join(titles),
             learn_date=post_date,
             topics=", ".join(set(tags)),
             categories=json.dumps(list(set(categories))),
