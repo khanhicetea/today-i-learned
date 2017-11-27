@@ -40,7 +40,7 @@ exit 0
 
 `conflict_detector.sh` is the filename of script, we exclude it from check to make sure changing this file doesn't make it failed.
 
-**Result** :
+**Result** (in my context) :
 
 - Old script : 12 seconds
 - New script : ~ 50ms (200 times faster)
