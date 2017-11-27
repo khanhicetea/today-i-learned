@@ -19,13 +19,13 @@ else
 fi
 ```
 
-Today, I think why don't we just check recently updated files (about 30 mins ago) ??? Then I have this new script
+Today, I think why don't we just check recently updated files (in the latest commit) ??? Then I have this new script
 
 ```bash
 #!/bin/bash
 
 # New way :D
-CHANGED_FILES=$(git log --pretty=format: --name-only --since="30 minutes ago" | sort | uniq)
+CHANGED_FILES=$(git log --pretty=format: --name-only HEAD^..HEAD | sort | uniq)
 
 for f in $CHANGED_FILES
 do
@@ -43,7 +43,7 @@ exit 0
 **Result** :
 
 - Old script : 12 seconds
-- New script : ~ 100ms (120 times faster)
+- New script : ~ 50ms (200 times faster)
 
 > be Automated, be Fast, but be Careful !
 
