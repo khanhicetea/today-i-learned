@@ -40,5 +40,10 @@ exit 0
 
 `conflict_detector.sh` is the filename of script, we exclude it from check to make sure changing this file doesn't make it failed.
 
-> be Automated, but be careful !
+**Result** :
+
+- Old script : 12 seconds
+- New script : ~ 100ms (120 times faster)
+
+> be Automated, be Fast, but be Careful !
 
