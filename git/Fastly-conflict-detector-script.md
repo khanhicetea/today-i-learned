@@ -40,6 +40,8 @@ exit 0
 
 `conflict_detector.sh` is the filename of script, we exclude it from check to make sure changing this file doesn't make it failed.
 
+*You can use this approach to check linter, coding standard or run preprocessor ;)*
+
 **Result** (in my context) :
 
 - Old script : 12 seconds
