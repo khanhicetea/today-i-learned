@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) [http] | 2018-01-03 |
 | [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) [web] | 2017-12-07 |
 | [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) [git] | 2017-11-27 |
 | [Getting your external IP](sysadmin/Getting-your-external-IP.md) [sysadmin] | 2017-11-24 |
 | [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) [docker] | 2017-11-22 |
-| [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) [git] | 2017-11-22 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -37,8 +37,9 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
 | [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
 | [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) | 2017-11-27 |
-| :books: **http** [ 1 articles ] | |
+| :books: **http** [ 2 articles ] | |
 | [ab failed responses](http/ab-failed-responses.md) | 2017-04-21 |
+| [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) | 2018-01-03 |
 | :books: **java** [ 1 articles ] | |
 | [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
 | :books: **javascript** [ 2 articles ] | |
