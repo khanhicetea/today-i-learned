@@ -16,7 +16,7 @@ The key of problem is detecting user platform, which can be done by extracting t
 
 This is how I implement using [Caddy web server](https://caddyserver.com/), you can do same thing in Apache or NGINX
 
-```txt
+```
 app.yourcompany.com:443 {
     timeouts 1m
 
