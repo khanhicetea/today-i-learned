@@ -14,10 +14,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
 | [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) [http] | 2018-01-03 |
+| [HSTS rule in browser](web/HSTS-rule-in-browser.md) [web] | 2018-01-03 |
 | [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) [web] | 2017-12-07 |
 | [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) [git] | 2017-11-27 |
 | [Getting your external IP](sysadmin/Getting-your-external-IP.md) [sysadmin] | 2017-11-24 |
-| [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) [docker] | 2017-11-22 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -102,10 +102,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **tools** [ 2 articles ] | |
 | [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
 | [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
-| :books: **web** [ 3 articles ] | |
+| :books: **web** [ 4 articles ] | |
 | [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
 | [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
 | [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
 
 
 # Instruction
