@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) [mysql] | 2018-01-04 |
 | [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) [http] | 2018-01-03 |
 | [HSTS rule in browser](web/HSTS-rule-in-browser.md) [web] | 2018-01-03 |
 | [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) [web] | 2017-12-07 |
 | [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) [git] | 2017-11-27 |
-| [Getting your external IP](sysadmin/Getting-your-external-IP.md) [sysadmin] | 2017-11-24 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -51,12 +51,13 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
 | :books: **mac-osx** [ 1 articles ] | |
 | [Shortcut keyboard improve productivity](mac-osx/Shortcut-keyboard-improve-productivity.md) | 2015-11-30 |
-| :books: **mysql** [ 5 articles ] | |
+| :books: **mysql** [ 6 articles ] | |
 | [Index is useless when use function on indexed field](mysql/Index-is-useless-when-use-function-on-indexed-field.md) | 2015-12-01 |
 | [String problems can cause logical bugs in application](mysql/string-problems-can-cause-logical-bugs-in-application.md) | 2017-02-17 |
 | [UNION vs UNION ALL](mysql/union-vs-union-all.md) | 2017-02-23 |
 | [Mysql dumping only table structure](mysql/Mysql-dumping-only-table-structure.md) | 2017-05-17 |
 | [Mycli : a new good cli MySql Client](mysql/mycli-:-a-new-good-cli-mysql-client.md) | 2017-09-01 |
+| [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) | 2018-01-04 |
 | :books: **networking** [ 2 articles ] | |
 | [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
 | [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
