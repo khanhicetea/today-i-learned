@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) [javascript] | 2018-01-07 |
+| [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) [javascript] | 2018-01-07 |
 | [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) [mysql] | 2018-01-04 |
 | [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) [http] | 2018-01-03 |
 | [HSTS rule in browser](web/HSTS-rule-in-browser.md) [web] | 2018-01-03 |
-| [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) [web] | 2017-12-07 |
-| [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) [git] | 2017-11-27 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -42,9 +42,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) | 2018-01-03 |
 | :books: **java** [ 1 articles ] | |
 | [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
-| :books: **javascript** [ 2 articles ] | |
+| :books: **javascript** [ 4 articles ] | |
 | [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
 | [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
+| [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
+| [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
 | :books: **linux** [ 3 articles ] | |
 | [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
 | [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
