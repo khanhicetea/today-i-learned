@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) [web] | 2018-01-08 |
 | [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) [javascript] | 2018-01-07 |
 | [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) [javascript] | 2018-01-07 |
 | [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) [mysql] | 2018-01-04 |
 | [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) [http] | 2018-01-03 |
-| [HSTS rule in browser](web/HSTS-rule-in-browser.md) [web] | 2018-01-03 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -105,11 +105,12 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **tools** [ 2 articles ] | |
 | [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
 | [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
-| :books: **web** [ 4 articles ] | |
+| :books: **web** [ 5 articles ] | |
 | [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
 | [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
 | [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
 | [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
 
 
 # Instruction
