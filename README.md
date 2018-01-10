@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) [javascript] | 2018-01-10 |
 | [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) [web] | 2018-01-08 |
 | [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) [javascript] | 2018-01-07 |
 | [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) [javascript] | 2018-01-07 |
 | [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) [mysql] | 2018-01-04 |
-| [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) [http] | 2018-01-03 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -42,11 +42,12 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) | 2018-01-03 |
 | :books: **java** [ 1 articles ] | |
 | [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
-| :books: **javascript** [ 4 articles ] | |
+| :books: **javascript** [ 5 articles ] | |
 | [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
 | [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
 | [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
 | [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
+| [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) | 2018-01-10 |
 | :books: **linux** [ 3 articles ] | |
 | [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
 | [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
