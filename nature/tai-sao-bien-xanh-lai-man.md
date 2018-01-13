@@ -5,7 +5,7 @@
 
 TLDR;
 
-> Biển xanh lại mặn bởi vì đá ở mặt đất (chứ không phải cá nó đái 😂 )
+> Biển xanh lại mặn bởi vì đá ở mặt đất cọ xát với mưa trên trời (chứ không phải cá nó đái 😂 )
 
 Read more : https://oceanservice.noaa.gov/facts/whysalty.html
 
