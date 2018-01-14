@@ -74,7 +74,7 @@ def convert_til_2_hugo(source, dest):
             content += "\n# " + article['category'].upper()
             content += "\n\n" + article['content'] + "\n"
 
-            titles.append(article['title'])
+            titles.append(article['title'].decode('utf-8'))
             categories.append(article['category'])
             for tag in article['tags']:
                 tags.append(tag)
