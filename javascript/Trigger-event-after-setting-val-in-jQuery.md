@@ -1,4 +1,4 @@
-- Date : 2018-01-13
+- Date : 2018-01-14
 - Tags : #javascript #jquery
 
 ## Trigger event after setting val in jQuery

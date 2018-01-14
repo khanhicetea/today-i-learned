@@ -13,8 +13,8 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) [javascript] | 2018-01-13 |
-| [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) [nature] | 2018-01-13 |
+| [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) [javascript] | 2018-01-14 |
+| [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) [nature] | 2018-01-14 |
 | [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) [javascript] | 2018-01-10 |
 | [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) [web] | 2018-01-08 |
 | [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) [javascript] | 2018-01-07 |
@@ -48,7 +48,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
 | [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
 | [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) | 2018-01-10 |
-| [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) | 2018-01-13 |
+| [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) | 2018-01-14 |
 | :books: **linux** [ 3 articles ] | |
 | [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
 | [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
@@ -63,7 +63,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Mycli : a new good cli MySql Client](mysql/mycli-:-a-new-good-cli-mysql-client.md) | 2017-09-01 |
 | [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) | 2018-01-04 |
 | :books: **nature** [ 1 articles ] | |
-| [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) | 2018-01-13 |
+| [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) | 2018-01-14 |
 | :books: **networking** [ 2 articles ] | |
 | [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
 | [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
