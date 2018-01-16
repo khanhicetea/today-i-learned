@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) [linux] | 2018-01-16 |
+| [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) [networking] | 2018-01-16 |
 | [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) [javascript] | 2018-01-14 |
 | [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) [nature] | 2018-01-14 |
 | [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) [javascript] | 2018-01-10 |
-| [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) [web] | 2018-01-08 |
-| [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) [javascript] | 2018-01-07 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -49,10 +49,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
 | [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) | 2018-01-10 |
 | [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) | 2018-01-14 |
-| :books: **linux** [ 3 articles ] | |
+| :books: **linux** [ 4 articles ] | |
 | [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
 | [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
 | [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
+| [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) | 2018-01-16 |
 | :books: **mac-osx** [ 1 articles ] | |
 | [Shortcut keyboard improve productivity](mac-osx/Shortcut-keyboard-improve-productivity.md) | 2015-11-30 |
 | :books: **mysql** [ 6 articles ] | |
@@ -64,9 +65,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) | 2018-01-04 |
 | :books: **nature** [ 1 articles ] | |
 | [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) | 2018-01-14 |
-| :books: **networking** [ 2 articles ] | |
+| :books: **networking** [ 3 articles ] | |
 | [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
 | [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
+| [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) | 2018-01-16 |
 | :books: **php** [ 6 articles ] | |
 | [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
 | [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
