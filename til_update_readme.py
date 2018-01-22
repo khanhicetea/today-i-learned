@@ -39,6 +39,7 @@ def convert_til_2_readme(source, template_file, dest):
     all_articles = []
     content = "| Table of Contents | :point_down: |\n| -------- | -------- |\n| :new: **Top 5 recent learning** | |\n"
     cat_content = ""
+    count = 0
 
     for cat in categories:
         cat_articles = []
@@ -54,8 +55,9 @@ def convert_til_2_readme(source, template_file, dest):
         
         cat_content += "| :books: **{}** [ {} articles ] | |\n".format(cat, len(cat_articles))
         for article in cat_articles:
-            cat_content += "| [{}]({}/{}) | {} |\n".format(
-                article['title'], article['category'], article['file_name'],
+            count += 1
+            cat_content += "| {}. [{}]({}/{}) | {} |\n".format(
+                count, article['title'], article['category'], article['file_name'],
                 article['date'].strftime('%Y-%m-%d'))
 
     all_articles.sort(reverse=True, key=lambda a: a['date'])
