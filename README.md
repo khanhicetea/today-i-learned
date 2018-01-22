@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Ansible running host pattern](devops/Ansible-running-host-pattern.md) [devops] | 2018-01-22 |
+| [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) [sysadmin] | 2018-01-22 |
 | [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) [linux] | 2018-01-16 |
 | [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) [networking] | 2018-01-16 |
 | [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) [javascript] | 2018-01-14 |
-| [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) [nature] | 2018-01-14 |
-| [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) [javascript] | 2018-01-10 |
 | :books: **bash** [ 1 articles ] | |
 | [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -25,10 +25,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **database** [ 2 articles ] | |
 | [Basics about sqlite command line tool](database/Basics-about-sqlite-command-line-tool.md) | 2017-04-25 |
 | [Indexes on multiple columns](database/indexes-on-multiple-columns.md) | 2017-10-13 |
-| :books: **devops** [ 3 articles ] | |
+| :books: **devops** [ 4 articles ] | |
 | [Checking forced push conflicts on source code in auto testing](devops/Checking-forced-push-conflicts-on-source-code-in-auto-testing.md) | 2017-05-19 |
 | [Free sandbox server for development](devops/Free-sandbox-server-for-development.md) | 2017-08-04 |
 | [Using netcat to wait a TCP service](devops/using-netcat-to-wait-a-tcp-service.md) | 2017-10-13 |
+| [Ansible running host pattern](devops/Ansible-running-host-pattern.md) | 2018-01-22 |
 | :books: **docker** [ 3 articles ] | |
 | [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
@@ -82,7 +83,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
 | :books: **quote** [ 1 articles ] | |
 | [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
-| :books: **sysadmin** [ 25 articles ] | |
+| :books: **sysadmin** [ 26 articles ] | |
 | [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
 | [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
 | [Commands](sysadmin/Commands.md) | 2015-12-30 |
@@ -108,6 +109,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
 | [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
 | [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
+| [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
 | :books: **tools** [ 2 articles ] | |
 | [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
 | [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
