@@ -6,6 +6,7 @@
 Logging and Monitoring are important factor for system admin. Checking the log will help you have a closer look into the issue. One tool could help you will handy features is `journalctl`.
 
 Here are simple options :
+
 - `-f` : follow the log (tailf)
 - `-u [service]` : filter to show only [service] logs
 - `--since=[date]` : Show entries not older than the specified date
