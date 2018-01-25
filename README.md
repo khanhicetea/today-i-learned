@@ -13,7 +13,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Basics of Elasticsearch](elasticsearch/Basics-of-Elasticsearch.md) [elasticsearch] | 2018-01-26 |
+| [Basics of Elasticsearch](elasticsearch/Basics-of-Elasticsearch.md) [elasticsearch] | 2018-01-25 |
 | [Ansible running host pattern](devops/Ansible-running-host-pattern.md) [devops] | 2018-01-22 |
 | [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) [sysadmin] | 2018-01-22 |
 | [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) [linux] | 2018-01-16 |
@@ -35,7 +35,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 10. [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
 | 11. [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
 | :books: **elasticsearch** [ 1 articles ] | |
-| 12. [Basics of Elasticsearch](elasticsearch/Basics-of-Elasticsearch.md) | 2018-01-26 |
+| 12. [Basics of Elasticsearch](elasticsearch/Basics-of-Elasticsearch.md) | 2018-01-25 |
 | :books: **git** [ 3 articles ] | |
 | 13. [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
 | 14. [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |

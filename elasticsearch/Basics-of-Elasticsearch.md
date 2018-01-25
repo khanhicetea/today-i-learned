@@ -1,4 +1,4 @@
-- Date : 2018-01-26
+- Date : 2018-01-25
 - Tags : #elasticsearch #logging #system
 
 ## Basics of Elasticsearch
