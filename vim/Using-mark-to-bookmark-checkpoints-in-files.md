@@ -11,3 +11,7 @@ Bookmarking a checkpoint will help you get back to it intermidately. Ex: your ha
 **Go to a mark**
 - [NORMAL MODE] , type backstick ` then follow by the letter your marked above.
 
+**List all current marks**
+- [NORMAL MODE], `:marks`
+
+**TIPS** : Can use it as a motion with `c`hange, `d`elete or `y`ank
