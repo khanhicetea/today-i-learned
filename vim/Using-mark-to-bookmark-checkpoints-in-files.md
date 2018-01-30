@@ -13,5 +13,14 @@ Bookmarking a checkpoint will help you get back to it intermidately. Ex: your ha
 
 **List all current marks**
 - [NORMAL MODE], `:marks`
+- It shows all marks included special ones :
+
+| Command | Description |
+| ------- | ----------- |
+| `. | jump to position where last change occurred in current buffer |
+| `" | jump to position where last exited current buffer |
+| `0 | jump to position in last file edited (when exited Vim) |
+| '' | jump back (to line in current buffer where jumped from) |
+| `` | jump back (to position in current buffer where jumped from) |
 
 **TIPS** : Can use it as a motion with `c`hange, `d`elete or `y`ank
