@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) [varnish] | 2018-01-31 |
 | [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) [vim] | 2018-01-30 |
 | [Basics of Elasticsearch](elasticsearch/Basics-of-Elasticsearch.md) [elasticsearch] | 2018-01-25 |
 | [Ansible running host pattern](devops/Ansible-running-host-pattern.md) [devops] | 2018-01-22 |
 | [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) [sysadmin] | 2018-01-22 |
-| [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) [linux] | 2018-01-16 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -115,14 +115,16 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **tools** [ 2 articles ] | |
 | 76. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
 | 77. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| :books: **varnish** [ 1 articles ] | |
+| 78. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
 | :books: **vim** [ 1 articles ] | |
-| 78. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 79. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
 | :books: **web** [ 5 articles ] | |
-| 79. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 80. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 81. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 82. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 83. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 80. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 81. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 82. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 83. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 84. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
 
 
 # Instruction
