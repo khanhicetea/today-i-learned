@@ -9,7 +9,7 @@ In Linux, you can use `netstat` to list all opening ports and listening UNIX soc
 $ sudo netstat -npl
 ```
 
-Tip to remember command : **net**work **stat**tistic - **n**atual **l**anguge **p**rocessing
+Tip to remember command : **net**work **stat**istics - **n**atual **l**anguge **p**rocessing
 
 ;)
 
