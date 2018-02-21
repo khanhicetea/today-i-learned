@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) [networking] | 2018-02-21 |
+| [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) [vim] | 2018-02-21 |
 | [Transaction style in Redis](redis/Transaction-style-in-Redis.md) [redis] | 2018-01-31 |
 | [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) [varnish] | 2018-01-31 |
 | [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) [vim] | 2018-01-30 |
-| [Basics of Elasticsearch](elasticsearch/Basics-of-Elasticsearch.md) [elasticsearch] | 2018-01-25 |
-| [Ansible running host pattern](devops/Ansible-running-host-pattern.md) [devops] | 2018-01-22 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -68,65 +68,67 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 35. [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) | 2018-01-04 |
 | :books: **nature** [ 1 articles ] | |
 | 36. [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) | 2018-01-14 |
-| :books: **networking** [ 3 articles ] | |
+| :books: **networking** [ 4 articles ] | |
 | 37. [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
 | 38. [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
 | 39. [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) | 2018-01-16 |
+| 40. [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) | 2018-02-21 |
 | :books: **php** [ 6 articles ] | |
-| 40. [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
-| 41. [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
-| 42. [F-cking stupid limit of input vars](php/Fcking-stupid-limit-of-input-vars.md) | 2016-03-08 |
-| 43. [Using VarDumper in PHPUnit](php/using-vardumper-in-phpunit.md) | 2017-02-23 |
-| 44. [Persistent connection to MySQL](php/Persistent-connection-to-MySQL.md) | 2017-02-28 |
-| 45. [realpath function](php/realpath-function.md) | 2017-08-06 |
+| 41. [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
+| 42. [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
+| 43. [F-cking stupid limit of input vars](php/Fcking-stupid-limit-of-input-vars.md) | 2016-03-08 |
+| 44. [Using VarDumper in PHPUnit](php/using-vardumper-in-phpunit.md) | 2017-02-23 |
+| 45. [Persistent connection to MySQL](php/Persistent-connection-to-MySQL.md) | 2017-02-28 |
+| 46. [realpath function](php/realpath-function.md) | 2017-08-06 |
 | :books: **python** [ 3 articles ] | |
-| 46. [String Format Unicode params](python/String-Format-Unicode-params.md) | 2015-12-01 |
-| 47. [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
-| 48. [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
+| 47. [String Format Unicode params](python/String-Format-Unicode-params.md) | 2015-12-01 |
+| 48. [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
+| 49. [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
 | :books: **quote** [ 1 articles ] | |
-| 49. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
+| 50. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
 | :books: **redis** [ 1 articles ] | |
-| 50. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
+| 51. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
 | :books: **sysadmin** [ 26 articles ] | |
-| 51. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
-| 52. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
-| 53. [Commands](sysadmin/Commands.md) | 2015-12-30 |
-| 54. [Bash shell shortcuts](sysadmin/Bash-shell-shortcuts.md) | 2016-03-26 |
-| 55. [Stats your top-10 frequently commands](sysadmin/Stats-your-top-10-commands.md) | 2016-03-26 |
-| 56. [Compressing and Extracting files with rar in Linux](sysadmin/Compressing-and-Extracting-files-with-rar-in-Linux.md) | 2017-05-17 |
-| 57. [Grant user to use sudo without password](sysadmin/Grant-user-to-use-sudo-without-password.md) | 2017-05-18 |
-| 58. [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
-| 59. [Using BSD find util to find and exec command on file and folder](sysadmin/Using-BSD-find-util-to-find-and-exec-command-on-file-and-folder.md) | 2017-05-22 |
-| 60. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
-| 61. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
-| 62. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
-| 63. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
-| 64. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
-| 65. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
-| 66. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
-| 67. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
-| 68. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
-| 69. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
-| 70. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
-| 71. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
-| 72. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
-| 73. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
-| 74. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
-| 75. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
-| 76. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
+| 52. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
+| 53. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
+| 54. [Commands](sysadmin/Commands.md) | 2015-12-30 |
+| 55. [Bash shell shortcuts](sysadmin/Bash-shell-shortcuts.md) | 2016-03-26 |
+| 56. [Stats your top-10 frequently commands](sysadmin/Stats-your-top-10-commands.md) | 2016-03-26 |
+| 57. [Compressing and Extracting files with rar in Linux](sysadmin/Compressing-and-Extracting-files-with-rar-in-Linux.md) | 2017-05-17 |
+| 58. [Grant user to use sudo without password](sysadmin/Grant-user-to-use-sudo-without-password.md) | 2017-05-18 |
+| 59. [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
+| 60. [Using BSD find util to find and exec command on file and folder](sysadmin/Using-BSD-find-util-to-find-and-exec-command-on-file-and-folder.md) | 2017-05-22 |
+| 61. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
+| 62. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
+| 63. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
+| 64. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
+| 65. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
+| 66. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
+| 67. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
+| 68. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
+| 69. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
+| 70. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
+| 71. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
+| 72. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
+| 73. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
+| 74. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
+| 75. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
+| 76. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
+| 77. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
 | :books: **tools** [ 2 articles ] | |
-| 77. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
-| 78. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| 78. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
+| 79. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
 | :books: **varnish** [ 1 articles ] | |
-| 79. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
-| :books: **vim** [ 1 articles ] | |
-| 80. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 80. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
+| :books: **vim** [ 2 articles ] | |
+| 81. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 82. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
 | :books: **web** [ 5 articles ] | |
-| 81. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 82. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 83. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 84. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 85. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 83. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 84. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 85. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 86. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 87. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
 
 
 # Instruction
