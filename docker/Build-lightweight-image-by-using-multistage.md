@@ -3,13 +3,13 @@
 
 ## Build lightweight image by using multistage
 
-Docker is great tool to build a pull-n-run application. But sometime, your image will be large if you build image from a big base image which has compliling toolbox.
+Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.
 
 Ex:
 
 **One-stage build**
 
-```Dockerfile
+```
 FROM golang:1.9.2
 WORKDIR /go/src/github.com/khanhicetea/test/
 COPY . .
@@ -19,7 +19,7 @@ ENTRYPOINT ["/go/src/github.com/khanhicetea/test/test"]
 
 **Multi-stage builds**
 
-```Dockerfile
+```
 FROM golang:1.9.2
 WORKDIR /go/src/github.com/khanhicetea/test/
 COPY . .
