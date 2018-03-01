@@ -12,7 +12,7 @@ To "rip" a source code from a vulnerable website, we can use this tool : https:/
 So to prevent this happens, try to deny all http access to hidden files and
 directories (usually starts by `.` character)
 
-Example Nginx config
+Example of Nginx config
 
 ```
 location ~ /\. {

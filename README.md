@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) [sysadmin] | 2018-03-01 |
 | [Build lightweight image by using multistage](docker/Build-lightweight-image-by-using-multistage.md) [docker] | 2018-02-23 |
 | [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) [networking] | 2018-02-21 |
 | [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) [vim] | 2018-02-21 |
 | [Transaction style in Redis](redis/Transaction-style-in-Redis.md) [redis] | 2018-01-31 |
-| [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) [varnish] | 2018-01-31 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -31,8 +31,8 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 7. [Using netcat to wait a TCP service](devops/using-netcat-to-wait-a-tcp-service.md) | 2017-10-13 |
 | 8. [Ansible running host pattern](devops/Ansible-running-host-pattern.md) | 2018-01-22 |
 | :books: **docker** [ 4 articles ] | |
-| 9. [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
-| 10. [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
+| 9. [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
+| 10. [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | 11. [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
 | 12. [Build lightweight image by using multistage](docker/Build-lightweight-image-by-using-multistage.md) | 2018-02-23 |
 | :books: **elasticsearch** [ 1 articles ] | |
@@ -89,7 +89,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 51. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
 | :books: **redis** [ 1 articles ] | |
 | 52. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
-| :books: **sysadmin** [ 26 articles ] | |
+| :books: **sysadmin** [ 27 articles ] | |
 | 53. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
 | 54. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
 | 55. [Commands](sysadmin/Commands.md) | 2015-12-30 |
@@ -109,27 +109,28 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 69. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
 | 70. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
 | 71. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
-| 72. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
-| 73. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
+| 72. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
+| 73. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
 | 74. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
 | 75. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
 | 76. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
 | 77. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
 | 78. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
+| 79. [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) | 2018-03-01 |
 | :books: **tools** [ 2 articles ] | |
-| 79. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
-| 80. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| 80. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
+| 81. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
 | :books: **varnish** [ 1 articles ] | |
-| 81. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
+| 82. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
 | :books: **vim** [ 2 articles ] | |
-| 82. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
-| 83. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
+| 83. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 84. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
 | :books: **web** [ 5 articles ] | |
-| 84. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 85. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 86. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 87. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 88. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 85. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 86. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 87. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 88. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 89. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
 
 
 # Instruction
