@@ -14,10 +14,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
 | [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) [sysadmin] | 2018-03-01 |
+| [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) [web] | 2018-03-01 |
 | [Build lightweight image by using multistage](docker/Build-lightweight-image-by-using-multistage.md) [docker] | 2018-02-23 |
 | [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) [networking] | 2018-02-21 |
 | [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) [vim] | 2018-02-21 |
-| [Transaction style in Redis](redis/Transaction-style-in-Redis.md) [redis] | 2018-01-31 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -125,12 +125,13 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **vim** [ 2 articles ] | |
 | 83. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
 | 84. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
-| :books: **web** [ 5 articles ] | |
+| :books: **web** [ 6 articles ] | |
 | 85. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
 | 86. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
 | 87. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
 | 88. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
 | 89. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 90. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
 
 
 # Instruction
