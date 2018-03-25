@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) [sysadmin] | 2018-03-25 |
 | [Flush DNS cache on iOS device](ios/Flush-DNS-cache-on-iOS-device.md) [ios] | 2018-03-14 |
 | [Install CA root certificate on iOS device](ios/Install-CA-root-certificate-on-iOS-device.md) [ios] | 2018-03-14 |
 | [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) [sysadmin] | 2018-03-01 |
 | [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) [web] | 2018-03-01 |
-| [Build lightweight image by using multistage](docker/Build-lightweight-image-by-using-multistage.md) [docker] | 2018-02-23 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -92,7 +92,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 53. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
 | :books: **redis** [ 1 articles ] | |
 | 54. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
-| :books: **sysadmin** [ 27 articles ] | |
+| :books: **sysadmin** [ 28 articles ] | |
 | 55. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
 | 56. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
 | 57. [Commands](sysadmin/Commands.md) | 2015-12-30 |
@@ -120,21 +120,22 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 79. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
 | 80. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
 | 81. [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) | 2018-03-01 |
+| 82. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
 | :books: **tools** [ 2 articles ] | |
-| 82. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
-| 83. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| 83. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
+| 84. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
 | :books: **varnish** [ 1 articles ] | |
-| 84. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
+| 85. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
 | :books: **vim** [ 2 articles ] | |
-| 85. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
-| 86. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
+| 86. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 87. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
 | :books: **web** [ 6 articles ] | |
-| 87. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 88. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 89. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 90. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 91. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
-| 92. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
+| 88. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 89. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 90. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 91. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 92. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 93. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
 
 
 # Instruction
