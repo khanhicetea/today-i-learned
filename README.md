@@ -14,10 +14,10 @@ This repo has a tool that help you to manage and write down what you learned in 
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
 | [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) [sysadmin] | 2018-04-10 |
+| [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) [sysadmin] | 2018-04-10 |
 | [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) [sysadmin] | 2018-03-25 |
 | [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) [sysadmin] | 2018-03-25 |
 | [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) [sysadmin] | 2018-03-25 |
-| [Flush DNS cache on iOS device](ios/Flush-DNS-cache-on-iOS-device.md) [ios] | 2018-03-14 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -92,7 +92,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 53. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
 | :books: **redis** [ 1 articles ] | |
 | 54. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
-| :books: **sysadmin** [ 31 articles ] | |
+| :books: **sysadmin** [ 32 articles ] | |
 | 55. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
 | 56. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
 | 57. [Commands](sysadmin/Commands.md) | 2015-12-30 |
@@ -124,21 +124,22 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 83. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
 | 84. [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) | 2018-03-25 |
 | 85. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
+| 86. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
 | :books: **tools** [ 2 articles ] | |
-| 86. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
-| 87. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| 87. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
+| 88. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
 | :books: **varnish** [ 1 articles ] | |
-| 88. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
+| 89. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
 | :books: **vim** [ 2 articles ] | |
-| 89. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
-| 90. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
+| 90. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 91. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
 | :books: **web** [ 6 articles ] | |
-| 91. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 92. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 93. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 94. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 95. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
-| 96. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
+| 92. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 93. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 94. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 95. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 96. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 97. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
 
 
 # Instruction
