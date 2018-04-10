@@ -21,3 +21,5 @@ Finnally, start chatting !! Each message will be send when you press [Enter]
 
 Note: End the session by press `Ctrl + D`
 
+![netcat chatting](https://user-images.githubusercontent.com/4528223/38550864-d2e5ef5e-3ce1-11e8-86d7-0ea70d862c84.png)
+
