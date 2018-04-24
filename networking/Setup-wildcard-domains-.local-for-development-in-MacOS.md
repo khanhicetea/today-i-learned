@@ -31,6 +31,12 @@ Then add `127.0.0.1` (dnsmasq IP) as first DNS resolver
 System Preferences > Network > Wi-Fi > Advanced... > DNS > add 127.0.0.1 > move it to top of the list.
 ```
 
+Checking everything is worked by listing all resolvers
+
+```bash
+$ scutil --dns
+```
+
 Try it out
 
 ```bash
