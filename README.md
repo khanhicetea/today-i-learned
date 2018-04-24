@@ -13,7 +13,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Setup wildcard domains .local for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) [networking] | 2018-04-24 |
+| [Setup wildcard domains .test for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) [networking] | 2018-04-24 |
 | [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) [sysadmin] | 2018-04-10 |
 | [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) [sysadmin] | 2018-04-10 |
 | [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) [sysadmin] | 2018-03-25 |
@@ -77,7 +77,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 41. [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
 | 42. [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) | 2018-01-16 |
 | 43. [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) | 2018-02-21 |
-| 44. [Setup wildcard domains .local for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) | 2018-04-24 |
+| 44. [Setup wildcard domains .test for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) | 2018-04-24 |
 | :books: **php** [ 6 articles ] | |
 | 45. [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
 | 46. [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
