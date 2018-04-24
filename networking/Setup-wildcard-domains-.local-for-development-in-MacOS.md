@@ -16,7 +16,7 @@ $ brew install dnsmasq
 Adding .local wildcard to config file
 
 ```bash
-echo 'address=/.local/127.0.0.1' > $(brew --prefix)/etc/dnsmasq.conf
+$ echo 'address=/.local/127.0.0.1' > $(brew --prefix)/etc/dnsmasq.conf
 ```
 
 Setup dnsmasq as a startup service
