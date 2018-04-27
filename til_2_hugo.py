@@ -1,6 +1,7 @@
 # encoding: utf-8
 #!/bin/env/python
 import os
+import re
 import codecs
 import json
 from datetime import datetime
@@ -9,8 +10,8 @@ from datetime import datetime
 TIL_FOLDER = '../khanhicetea.com/content/til'
 DOC_CONTENT = u'''+++
 date = "{post_date}"
-title = "#TIL {learn_date} : {topics}"
-description = "I learned in {learn_date} about {titles}"
+title = "#TIL {learn_date} : {title}"
+description = "I learned in {learn_date} about {topics}"
 categories = {categories}
 tags = {tags}
 +++
@@ -45,6 +46,18 @@ def parse_article(content, category):
     return post
 
 
+def slugify(s):
+    s = s.lower()
+    for c in [' ', '-', '.', '/']:
+        s = s.replace(c, '_')
+    s = re.sub('\W', '', s)
+    s = s.replace('_', ' ')
+    s = re.sub('\s+', ' ', s)
+    s = s.strip()
+    s = s.replace(' ', '-')
+    return s
+
+
 def convert_til_2_hugo(source, dest):
     excluded_folders = [".git", TIL_FOLDER]
     categories = [f for f in os.listdir(source) if os.path.isdir(f) and f not in excluded_folders]
@@ -57,41 +70,33 @@ def convert_til_2_hugo(source, dest):
             parts = raw.split('/--------------------/')
             for part in parts:
                 article = parse_article(part.strip(), cat)
-                article_date = article['date'].date().isoformat()
-                if article_date not in data:
-                    data[article_date] = []
-                data[article_date].append(article)
+                title = article['title'].decode('utf-8')
+                article_date = article['date']
+                article_categories = ['Today I learned']
+                tags = []
 
-    for post_date in data:
-        article_date = datetime.strptime(post_date, "%Y-%m-%d")
-        articles = data[post_date]
-        content = ""
-        categories = ['Today I learned']
-        tags = ['til']
-        titles = []
+                content = "\n\n" + article['content'] + "\n"
+                
+                article_categories.append(article['category'])
+                for tag in article['tags']:
+                    tags.append(tag)
 
-        for article in articles:
-            content += "\n# " + article['category'].upper()
-            content += "\n\n" + article['content'] + "\n"
+                raw_file = DOC_CONTENT.format(
+                    title=title,
+                    learn_date=article_date.date().isoformat(),
+                    post_date=article_date.strftime('%Y-%m-%dT23:59:59'),
+                    topics=", ".join(set(tags)),
+                    categories=json.dumps(list(set(article_categories))),
+                    tags=json.dumps(list(set(tags)))
+                )
 
-            titles.append(article['title'].decode('utf-8'))
-            categories.append(article['category'])
-            for tag in article['tags']:
-                tags.append(tag)
-
-        raw_file = DOC_CONTENT.format(
-            post_date=article_date.isoformat(),
-            titles="; ".join(titles),
-            learn_date=post_date,
-            topics=", ".join(set(tags)),
-            categories=json.dumps(list(set(categories))),
-            tags=json.dumps(list(set(tags)))
-        )
-
-        write_entire_file(
-            os.path.join(dest, "{}.md".format(post_date)),
-            raw_file + content.decode('utf-8')
-        )
+                write_entire_file(
+                    os.path.join(dest, "{date}-{title}.md".format(
+                        date=article_date.date().isoformat(),
+                        title=slugify(title)
+                    )),
+                    raw_file + content.decode('utf-8')
+                )
 
 
 if __name__ == '__main__':
