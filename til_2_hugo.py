@@ -91,7 +91,7 @@ def convert_til_2_hugo(source, dest):
                 )
 
                 write_entire_file(
-                    os.path.join(dest, "til-{date}-{title}.md".format(
+                    os.path.join(dest, "{date}-{title}.md".format(
                         date=article_date.date().isoformat(),
                         title=slugify(title)
                     )),
