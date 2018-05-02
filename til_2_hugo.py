@@ -72,6 +72,7 @@ def convert_til_2_hugo(source, dest):
                 article = parse_article(part.strip(), cat)
                 title = article['title'].decode('utf-8')
                 article_date = article['date']
+                post_date = article_date.replace(hour=23, minute=59, second=59)
                 article_categories = ['Today I learned']
                 tags = []
 
@@ -84,7 +85,7 @@ def convert_til_2_hugo(source, dest):
                 raw_file = DOC_CONTENT.format(
                     title=title,
                     learn_date=article_date.date().isoformat(),
-                    post_date=article_date.strftime('%Y-%m-%dT23:59:59'),
+                    post_date=post_date.strftime('%Y-%m-%dT%H:%M:%S'),
                     topics=", ".join(set(tags)),
                     categories=json.dumps(list(set(article_categories))),
                     tags=json.dumps(list(set(tags)))
