@@ -33,6 +33,6 @@ As you can see, we got a list of tables, which are prefixed by defined alias `TE
 Example of copying data between 2 tables (same structure) :
 
 ```
-> INSERT INTO users SELECT * FROM TEMP.users
+> INSERT INTO users SELECT * FROM TEMP.users;
 ```
 
