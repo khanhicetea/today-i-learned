@@ -10,7 +10,7 @@ from datetime import datetime
 TIL_FOLDER = '../khanhicetea.com/content/til'
 DOC_CONTENT = u'''+++
 date = "{post_date}"
-title = "#TIL {learn_date} : {title}"
+title = "#TIL : {title}"
 description = "I learned in {learn_date} about {topics}"
 categories = {categories}
 tags = {tags}
