@@ -13,7 +13,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Using temporary another database in SQLite](database/Using-temporary-another-database-in-SQLite.md) [database] | 2018-05-02 |
+| [Use temporarily data from another database in SQLite](database/Using-temporary-another-database-in-SQLite.md) [database] | 2018-05-02 |
 | [Exporting environment variables on virtual env activate](python/Exporting-environment-variables-on-virtual-env-activate.md) [python] | 2018-04-30 |
 | [Setup wildcard domains .test for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) [networking] | 2018-04-24 |
 | [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) [sysadmin] | 2018-04-10 |
@@ -25,7 +25,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **database** [ 3 articles ] | |
 | 3. [Basics about sqlite command line tool](database/Basics-about-sqlite-command-line-tool.md) | 2017-04-25 |
 | 4. [Indexes on multiple columns](database/indexes-on-multiple-columns.md) | 2017-10-13 |
-| 5. [Using temporary another database in SQLite](database/Using-temporary-another-database-in-SQLite.md) | 2018-05-02 |
+| 5. [Use temporarily data from another database in SQLite](database/Using-temporary-another-database-in-SQLite.md) | 2018-05-02 |
 | :books: **devops** [ 4 articles ] | |
 | 6. [Checking forced push conflicts on source code in auto testing](devops/Checking-forced-push-conflicts-on-source-code-in-auto-testing.md) | 2017-05-19 |
 | 7. [Free sandbox server for development](devops/Free-sandbox-server-for-development.md) | 2017-08-04 |

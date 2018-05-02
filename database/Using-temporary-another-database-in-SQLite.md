@@ -1,7 +1,7 @@
 - Date : 2018-05-02
 - Tags : #database #sqlite
 
-## Using temporary another database in SQLite
+## Use temporarily data from another database in SQLite
 
 Sometimes, we need to use temporarily data from another database file. There is simple and fast way to achieve that without transfering data from file X to file Y.
 
