@@ -29,5 +29,5 @@ Then the output is
 cb
 ```
 
-Than mean even `return 'b';` runs, the **finally code** must be runned before function result pass out.
+Than mean even `return 'b';` runs, the **finally code** must be runned before function result passes out.
 
