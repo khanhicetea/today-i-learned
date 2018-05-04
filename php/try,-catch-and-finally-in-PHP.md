@@ -21,7 +21,7 @@ function a() {
 }
 
 echo a();
-``
+```
 
 Then the output is
 
