@@ -9,9 +9,9 @@ Today, I read my junior team-mate code and find this line
 $number = rand(2,1000)*rand(2,1000);
 ```
 
-Ok, this made me remember that's same idea of my own in many years ago. Then I ask my self, is it good to generate a random number from 2 random number ?
+This made me remember that's same idea of my own in many years ago. Then I ask myself, is it good to generate a random number from 2 random numbers ?
 
-So the main reason that he wrote this was making probability of same number of same time must be low. We can know that this will return a random number from 2 to 1000000. So why don't we just do that ?
+So the main reason that he wrote this was making probability of same number at same time must be low. We can know that this will return a random number from 4 to 1000000. So why don't we just do this ?
 
 ```php
 $number = rand(4,1000000);
