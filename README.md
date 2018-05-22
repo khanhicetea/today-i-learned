@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Reuse cookies between multi requests in Curl tool](http/Reuse-cookies-between-multi-requests-in-Curl-tool.md) [http] | 2018-05-22 |
 | [Encrypt and decrypt file using openssl command line](crypto/Encrypt-and-decrypt-file-using-openssl-command-line.md) [crypto] | 2018-05-17 |
 | [Get random number from computer](programming/Get-random-number-from-computer.md) [programming] | 2018-05-14 |
 | [View DNS history of a domain](sysadmin/View-DNS-history-of-a-domain.md) [sysadmin] | 2018-05-08 |
 | [Never autostart XDebug in cli environment](php/Never-autostart-XDebug-in-cli-environment.md) [php] | 2018-05-07 |
-| [try, catch and finally in PHP](php/try,-catch-and-finally-in-PHP.md) [php] | 2018-05-04 |
 | :books: **bash** [ 1 articles ] | |
 | 1. [Simple HTTP server function helper](bash/simple-http-server-function-helper.md) | 2017-10-05 |
 | :books: **chrome-dev** [ 1 articles ] | |
@@ -44,112 +44,113 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 16. [Resolving conflict like a boss](git/resolving-conflict-like-a-boss.md) | 2017-06-13 |
 | 17. [using git hooks to improve working flow](git/using-git-hooks-to-improve-working-flow.md) | 2017-11-22 |
 | 18. [Fastly conflict detector script](git/Fastly-conflict-detector-script.md) | 2017-11-27 |
-| :books: **http** [ 2 articles ] | |
+| :books: **http** [ 3 articles ] | |
 | 19. [ab failed responses](http/ab-failed-responses.md) | 2017-04-21 |
 | 20. [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) | 2018-01-03 |
+| 21. [Reuse cookies between multi requests in Curl tool](http/Reuse-cookies-between-multi-requests-in-Curl-tool.md) | 2018-05-22 |
 | :books: **ios** [ 2 articles ] | |
-| 21. [Flush DNS cache on iOS device](ios/Flush-DNS-cache-on-iOS-device.md) | 2018-03-14 |
-| 22. [Install CA root certificate on iOS device](ios/Install-CA-root-certificate-on-iOS-device.md) | 2018-03-14 |
+| 22. [Flush DNS cache on iOS device](ios/Flush-DNS-cache-on-iOS-device.md) | 2018-03-14 |
+| 23. [Install CA root certificate on iOS device](ios/Install-CA-root-certificate-on-iOS-device.md) | 2018-03-14 |
 | :books: **java** [ 1 articles ] | |
-| 23. [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
+| 24. [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
 | :books: **javascript** [ 6 articles ] | |
-| 24. [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
-| 25. [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
-| 26. [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
-| 27. [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
-| 28. [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) | 2018-01-10 |
-| 29. [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) | 2018-01-14 |
+| 25. [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
+| 26. [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
+| 27. [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
+| 28. [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
+| 29. [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) | 2018-01-10 |
+| 30. [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) | 2018-01-14 |
 | :books: **linux** [ 4 articles ] | |
-| 30. [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
-| 31. [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
-| 32. [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
-| 33. [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) | 2018-01-16 |
+| 31. [Remap Capslock to Control key](linux/remap-capslock-to-control-key.md) | 2017-08-08 |
+| 32. [Send ENTER key to kernel](linux/Send-ENTER-key-to-kernel.md) | 2017-09-27 |
+| 33. [Using watch command to tracking changes in period time](linux/Using-watch-command-to-tracking-changes-in-period-time.md) | 2017-10-20 |
+| 34. [Disable IPv6 to stop getting stuck in network](linux/Disable-IPv6-to-stop-getting-stuck-in-network.md) | 2018-01-16 |
 | :books: **mac-osx** [ 1 articles ] | |
-| 34. [Shortcut keyboard improve productivity](mac-osx/Shortcut-keyboard-improve-productivity.md) | 2015-11-30 |
+| 35. [Shortcut keyboard improve productivity](mac-osx/Shortcut-keyboard-improve-productivity.md) | 2015-11-30 |
 | :books: **mysql** [ 6 articles ] | |
-| 35. [Index is useless when use function on indexed field](mysql/Index-is-useless-when-use-function-on-indexed-field.md) | 2015-12-01 |
-| 36. [String problems can cause logical bugs in application](mysql/string-problems-can-cause-logical-bugs-in-application.md) | 2017-02-17 |
-| 37. [UNION vs UNION ALL](mysql/union-vs-union-all.md) | 2017-02-23 |
-| 38. [Mysql dumping only table structure](mysql/Mysql-dumping-only-table-structure.md) | 2017-05-17 |
-| 39. [Mycli : a new good cli MySql Client](mysql/mycli-:-a-new-good-cli-mysql-client.md) | 2017-09-01 |
-| 40. [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) | 2018-01-04 |
+| 36. [Index is useless when use function on indexed field](mysql/Index-is-useless-when-use-function-on-indexed-field.md) | 2015-12-01 |
+| 37. [String problems can cause logical bugs in application](mysql/string-problems-can-cause-logical-bugs-in-application.md) | 2017-02-17 |
+| 38. [UNION vs UNION ALL](mysql/union-vs-union-all.md) | 2017-02-23 |
+| 39. [Mysql dumping only table structure](mysql/Mysql-dumping-only-table-structure.md) | 2017-05-17 |
+| 40. [Mycli : a new good cli MySql Client](mysql/mycli-:-a-new-good-cli-mysql-client.md) | 2017-09-01 |
+| 41. [Sleeping connections in MySQL](mysql/Sleeping-connections-in-MySQL.md) | 2018-01-04 |
 | :books: **nature** [ 1 articles ] | |
-| 41. [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) | 2018-01-14 |
+| 42. [Tại sao biển xanh lại mặn ? :lol:](nature/tai-sao-bien-xanh-lai-man.md) | 2018-01-14 |
 | :books: **networking** [ 5 articles ] | |
-| 42. [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
-| 43. [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
-| 44. [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) | 2018-01-16 |
-| 45. [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) | 2018-02-21 |
-| 46. [Setup wildcard domains .test for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) | 2018-04-24 |
+| 43. [TCP FIN timeout](networking/tcp-fin-timeout.md) | 2017-09-07 |
+| 44. [How SMTP works](networking/How-SMTP-works.md) | 2017-10-04 |
+| 45. [Set up simple rate limiting on specified port using UFW](networking/Set-up-simple-rate-limiting-on-specified-port-using-UFW.md) | 2018-01-16 |
+| 46. [List opening ports or listening UNIX sockets](networking/List-opening-ports-or-listening-UNIX-sockets.md) | 2018-02-21 |
+| 47. [Setup wildcard domains .test for development in MacOS](networking/Setup-wildcard-domains-.local-for-development-in-MacOS.md) | 2018-04-24 |
 | :books: **php** [ 8 articles ] | |
-| 47. [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
-| 48. [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
-| 49. [F-cking stupid limit of input vars](php/Fcking-stupid-limit-of-input-vars.md) | 2016-03-08 |
-| 50. [Using VarDumper in PHPUnit](php/using-vardumper-in-phpunit.md) | 2017-02-23 |
-| 51. [Persistent connection to MySQL](php/Persistent-connection-to-MySQL.md) | 2017-02-28 |
-| 52. [realpath function](php/realpath-function.md) | 2017-08-06 |
-| 53. [try, catch and finally in PHP](php/try,-catch-and-finally-in-PHP.md) | 2018-05-04 |
-| 54. [Never autostart XDebug in cli environment](php/Never-autostart-XDebug-in-cli-environment.md) | 2018-05-07 |
+| 48. [Eloquent Many-to-Many Relationship](php/Eloquent-Many-to-Many-Relationship.md) | 2015-12-02 |
+| 49. [Run built-in server via Docker](php/Run-built-in-server-via-Docker.md) | 2015-12-04 |
+| 50. [F-cking stupid limit of input vars](php/Fcking-stupid-limit-of-input-vars.md) | 2016-03-08 |
+| 51. [Using VarDumper in PHPUnit](php/using-vardumper-in-phpunit.md) | 2017-02-23 |
+| 52. [Persistent connection to MySQL](php/Persistent-connection-to-MySQL.md) | 2017-02-28 |
+| 53. [realpath function](php/realpath-function.md) | 2017-08-06 |
+| 54. [try, catch and finally in PHP](php/try,-catch-and-finally-in-PHP.md) | 2018-05-04 |
+| 55. [Never autostart XDebug in cli environment](php/Never-autostart-XDebug-in-cli-environment.md) | 2018-05-07 |
 | :books: **programming** [ 1 articles ] | |
-| 55. [Get random number from computer](programming/Get-random-number-from-computer.md) | 2018-05-14 |
+| 56. [Get random number from computer](programming/Get-random-number-from-computer.md) | 2018-05-14 |
 | :books: **python** [ 4 articles ] | |
-| 56. [String Format Unicode params](python/String-Format-Unicode-params.md) | 2015-12-01 |
-| 57. [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
-| 58. [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
-| 59. [Exporting environment variables on virtual env activate](python/Exporting-environment-variables-on-virtual-env-activate.md) | 2018-04-30 |
+| 57. [String Format Unicode params](python/String-Format-Unicode-params.md) | 2015-12-01 |
+| 58. [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
+| 59. [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
+| 60. [Exporting environment variables on virtual env activate](python/Exporting-environment-variables-on-virtual-env-activate.md) | 2018-04-30 |
 | :books: **quote** [ 1 articles ] | |
-| 60. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
+| 61. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
 | :books: **redis** [ 1 articles ] | |
-| 61. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
+| 62. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
 | :books: **sysadmin** [ 33 articles ] | |
-| 62. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
-| 63. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
-| 64. [Commands](sysadmin/Commands.md) | 2015-12-30 |
-| 65. [Bash shell shortcuts](sysadmin/Bash-shell-shortcuts.md) | 2016-03-26 |
-| 66. [Stats your top-10 frequently commands](sysadmin/Stats-your-top-10-commands.md) | 2016-03-26 |
-| 67. [Compressing and Extracting files with rar in Linux](sysadmin/Compressing-and-Extracting-files-with-rar-in-Linux.md) | 2017-05-17 |
-| 68. [Grant user to use sudo without password](sysadmin/Grant-user-to-use-sudo-without-password.md) | 2017-05-18 |
-| 69. [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
-| 70. [Using BSD find util to find and exec command on file and folder](sysadmin/Using-BSD-find-util-to-find-and-exec-command-on-file-and-folder.md) | 2017-05-22 |
-| 71. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
-| 72. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
-| 73. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
-| 74. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
-| 75. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
-| 76. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
-| 77. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
-| 78. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
-| 79. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
-| 80. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
-| 81. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
-| 82. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
-| 83. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
-| 84. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
-| 85. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
-| 86. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
-| 87. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
-| 88. [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) | 2018-03-01 |
-| 89. [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) | 2018-03-25 |
-| 90. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
-| 91. [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) | 2018-03-25 |
-| 92. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
-| 93. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
-| 94. [View DNS history of a domain](sysadmin/View-DNS-history-of-a-domain.md) | 2018-05-08 |
+| 63. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
+| 64. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
+| 65. [Commands](sysadmin/Commands.md) | 2015-12-30 |
+| 66. [Bash shell shortcuts](sysadmin/Bash-shell-shortcuts.md) | 2016-03-26 |
+| 67. [Stats your top-10 frequently commands](sysadmin/Stats-your-top-10-commands.md) | 2016-03-26 |
+| 68. [Compressing and Extracting files with rar in Linux](sysadmin/Compressing-and-Extracting-files-with-rar-in-Linux.md) | 2017-05-17 |
+| 69. [Grant user to use sudo without password](sysadmin/Grant-user-to-use-sudo-without-password.md) | 2017-05-18 |
+| 70. [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
+| 71. [Using BSD find util to find and exec command on file and folder](sysadmin/Using-BSD-find-util-to-find-and-exec-command-on-file-and-folder.md) | 2017-05-22 |
+| 72. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
+| 73. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
+| 74. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
+| 75. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
+| 76. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
+| 77. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
+| 78. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
+| 79. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
+| 80. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
+| 81. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
+| 82. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
+| 83. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
+| 84. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
+| 85. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
+| 86. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
+| 87. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
+| 88. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
+| 89. [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) | 2018-03-01 |
+| 90. [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) | 2018-03-25 |
+| 91. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
+| 92. [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) | 2018-03-25 |
+| 93. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
+| 94. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
+| 95. [View DNS history of a domain](sysadmin/View-DNS-history-of-a-domain.md) | 2018-05-08 |
 | :books: **tools** [ 2 articles ] | |
-| 95. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
-| 96. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| 96. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
+| 97. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
 | :books: **varnish** [ 1 articles ] | |
-| 97. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
+| 98. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
 | :books: **vim** [ 2 articles ] | |
-| 98. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
-| 99. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
+| 99. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 100. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
 | :books: **web** [ 6 articles ] | |
-| 100. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 101. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 102. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 103. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 104. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
-| 105. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
+| 101. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 102. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 103. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 104. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 105. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 106. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
 
 
 # Instruction
