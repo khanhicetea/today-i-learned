@@ -49,3 +49,13 @@ print(append_if_multiple_of_five(123, []))
 print(append_if_multiple_of_five(123))
 ```
 
+Result :
+
+```
+[100]
+[105]
+[]
+[]
+[]
+```
+
