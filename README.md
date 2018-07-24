@@ -13,7 +13,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Context Managers](python/Context-Managers.md) [python] | 2018-07-24 |
+| [Context Managers in Python](python/Context-Managers.md) [python] | 2018-07-24 |
 | [Do not use mutable objects as default parameters](python/Do-not-use-mutable-objects-as-default-parameters.md) [python] | 2018-07-24 |
 | [Running git command using another ssh key](git/Running-git-command-using-another-ssh-key.md) [git] | 2018-06-26 |
 | [Put .git data outside project directory](git/Put-.git-data-outside-project-directory.md) [git] | 2018-05-29 |
@@ -100,7 +100,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 60. [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
 | 61. [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
 | 62. [Exporting environment variables on virtual env activate](python/Exporting-environment-variables-on-virtual-env-activate.md) | 2018-04-30 |
-| 63. [Context Managers](python/Context-Managers.md) | 2018-07-24 |
+| 63. [Context Managers in Python](python/Context-Managers.md) | 2018-07-24 |
 | 64. [Do not use mutable objects as default parameters](python/Do-not-use-mutable-objects-as-default-parameters.md) | 2018-07-24 |
 | :books: **quote** [ 1 articles ] | |
 | 65. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |

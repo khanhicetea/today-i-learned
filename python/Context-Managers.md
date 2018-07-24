@@ -1,7 +1,7 @@
 - Date : 2018-07-24
 - Tags : #python
 
-## Context Managers
+## Context Managers in Python
 
 In Python, sometimes you will see this syntax
 
@@ -10,7 +10,7 @@ with something:
     do_something_else(something)
 ```
 
-Then you ask yourself, why I have to use this `with` syntax ? What run inside that statement ?
+Then you ask yourself, why I have to use this `with` syntax ? What runs inside that statement ?
 
 Here is how it works, it's called **Context Managers** in object
 
@@ -42,7 +42,7 @@ Kitty Kat
 Exit the room !
 ```
 
-So, when you start use `with` keyword on a object, it runs `__enter__` method, when everything inside `with` block are runned, `__exit__` will be called !
+So, when you start using `with` keyword on a object, it runs `__enter__` method, when everything inside `with` block is runned, `__exit__` will be called !
 
 It's cool feature of Python !
 

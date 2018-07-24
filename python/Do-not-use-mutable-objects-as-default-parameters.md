@@ -30,9 +30,9 @@ Result :
 [100, 105]
 ```
 
-So default parameters in Python is shared between function calls if it isn't passed from caller. So be careful because shared mutable object can affected your logic between function calls, where MAGIC was born !
+So default parameters in Python are shared between function calls if it isn't passed from caller. So be careful because shared mutable object can affect your logic between function calls, where MAGIC was born !
 
-One safe way to archieve the goal, use `None` as replacement like this
+One safe way to achieve the goal, use `None` as replacement like this
 
 ```python
 def append_if_multiple_of_five(number, magical_list=None):
