@@ -40,6 +40,24 @@ a.x = 7
 print(a.x)
 ```
 
+Output :
+
+```
+init 10
+setter 10
+getter
+10
+setter -1
+getter
+0
+setter 2
+getter
+2
+setter 7
+getter
+14
+```
+
 This is so cool feature, and even it has `deleter` property method, which triggers when we run `del object.property` :D
 
 In reactive JS framework that they use getter and setter like a core of Reactive, let find out more next articles ;)
