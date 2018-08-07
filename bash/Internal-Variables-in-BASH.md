@@ -21,10 +21,10 @@ You can use it for profiling or limiting timeout
 
 ```bash
 TIME_LIMIT=60
-
-while [ "$SECONDS" -le "$TIME_LIMIT" ]
+START=$SECONDS
+while [ $(($SECONDS - START)) -le "$TIME_LIMIT" ]
 do
-	## Your hard work here
+	## Your work here
 done
 
 echo "It takes $SECONDS seconds to get here !"
