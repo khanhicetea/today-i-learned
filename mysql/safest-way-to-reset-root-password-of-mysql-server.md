@@ -130,5 +130,5 @@ If anything works perfectly, last step is enabling access to socket file
 $ sudo chmod 777 /var/run/mysqld/mysqld.sock
 ```
 
-HOPE IT HELP ! WE SOLVE PROBLEMS BY UNDERSTANDING IT !
+> HOPE IT HELP ! WE SOLVE PROBLEMS BY UNDERSTANDING IT !
 
