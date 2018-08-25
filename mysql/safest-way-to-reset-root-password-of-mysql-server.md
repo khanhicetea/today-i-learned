@@ -3,11 +3,11 @@
 
 ## The safest way to reset root password of MySQL Server
 
-When you get stucked in this error message "Access denied for user 'root@localhost' ...", you search the way to reset the root password on the Internet, but life is Hard ! (No answer makes you feel it's right way, even some do not work)
+When you get stucked in this error message **"Access denied for user 'root@localhost' ..."**, you search the way to reset the root password on the Internet, but life is Hard ! (No answer makes you feel it's right way, even some do not work)
 
 So to solve this problem, we need to understand **MySQL Authentication**
 
-Step 1 : Disable **MySQL Authentication** by skip loading **grant-tables** on loading MySQL server
+**Step 1** : Disable **MySQL Authentication** by skip loading **grant-tables** on loading MySQL server
 
 Open MySQL server config file, it might be in **/etc/mysql/mysql.conf.d/mysqld.cnf**. Add this line to section `mysql`
 
@@ -35,19 +35,19 @@ bind-address = 127.0.0.1
 $ sudo chmod 400 /var/run/mysqld/mysqld.sock
 ```
 
-Step 2 : Restart the MySQL server
+**Step 2** : Restart the MySQL server
 
 ```bash
 $ sudo systemctl restart mysql
 ```
 
-Step 3 : Connect to mysql server by mysql cli, now you can connect free
+**Step 3** : Connect to mysql server by mysql cli, now you can connect free
 
 ```bash
 $ mysql -h 127.0.0.1 -P 6033
 ```
 
-Step 4 : Analyze mysql.user table
+**Step 4** : Analyze mysql.user table
 
 ```sql
 mysql> use mysql              
@@ -66,20 +66,20 @@ These fields meaning :
 - Host : allowed client host name or IP address
   - `127.0.0.1` : allow local clients connect via TCP
   - `localhost` : allow local clients connect via local UNIX socket file `/var/run/mysqld/mysqld.sock`
-  - `%` : allow from all hosts
+  - `%` : any wildcard, allow from all hosts
 - User : allowed user name
   - `root` : allow root user
 - plugin :
   - `mysql_native_password` : use hashing function of MySQL `PASSWORD('YOURPASSWORD')`, stored in `authentication_string` field (MySQL 5.7+) or `password` field (MySQL 5.6 or older)
   - `auth_socket` : use socket
 - password_expired :
- - `Y` : password is expired
- - `N` : password is not expired (still working)
+  - `Y` : password is expired
+  - `N` : password is not expired (still working)
 - account_locked :
- - `Y` : account is locked
- - `N` : account is not locked (still working)
+  - `Y` : account is locked
+  - `N` : account is not locked (still working)
 
-Step 5 : Reset your password
+**Step 5** : Reset your password
 
 Rewrite your sql command by replacing `NEWPASSWORD` and **WHERE** statement to match account we analyze in Step 4
 
@@ -97,14 +97,14 @@ mysql> update user set plugin = 'mysql_native_password', password = PASSWORD('NE
 
 **Make sure that we changed 1 row by checking the result log : Query OK, 1 rows affected (0.00 sec)** 
 
-Step 6 : Flushing privileges
+**Step 6** : Flushing privileges
 
 ```sql
 mysql> flush privileges;
 mysql> quit;
 ```
 
-Step 7 : Rollback all config changes
+**Step 7** : Rollback all config changes
 
 Update your mysql server config file, make sure to comment out `skip-grant-tables`
 
