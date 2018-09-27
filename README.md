@@ -37,8 +37,8 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 12. [Using netcat to wait a TCP service](devops/using-netcat-to-wait-a-tcp-service.md) | 2017-10-13 |
 | 13. [Ansible running host pattern](devops/Ansible-running-host-pattern.md) | 2018-01-22 |
 | :books: **docker** [ 4 articles ] | |
-| 14. [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
-| 15. [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
+| 14. [Reducing docker image the right way](docker/Reducing-docker-image-the-right-way.md) | 2017-05-24 |
+| 15. [Changing channel from alpha to stable will remove ALL DATA](docker/Changing-channel-from-alpha-to-stable-will-remove-ALL-DATA.md) | 2017-05-24 |
 | 16. [Reduce init time MySQL docker image](docker/Reduce-init-time-MySQL-docker-image.md) | 2017-11-22 |
 | 17. [Build lightweight image by using multistage](docker/Build-lightweight-image-by-using-multistage.md) | 2018-02-23 |
 | :books: **elasticsearch** [ 1 articles ] | |
@@ -54,15 +54,15 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 25. [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) | 2018-01-03 |
 | 26. [Reuse cookies between multi requests in Curl tool](http/Reuse-cookies-between-multi-requests-in-Curl-tool.md) | 2018-05-22 |
 | :books: **ios** [ 2 articles ] | |
-| 27. [Flush DNS cache on iOS device](ios/Flush-DNS-cache-on-iOS-device.md) | 2018-03-14 |
-| 28. [Install CA root certificate on iOS device](ios/Install-CA-root-certificate-on-iOS-device.md) | 2018-03-14 |
+| 27. [Install CA root certificate on iOS device](ios/Install-CA-root-certificate-on-iOS-device.md) | 2018-03-14 |
+| 28. [Flush DNS cache on iOS device](ios/Flush-DNS-cache-on-iOS-device.md) | 2018-03-14 |
 | :books: **java** [ 1 articles ] | |
 | 29. [Runing old java applets on brower](java/Runing-old-java-applets-on-brower.md) | 2017-08-06 |
 | :books: **javascript** [ 6 articles ] | |
-| 30. [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
-| 31. [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
-| 32. [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
-| 33. [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
+| 30. [Scope and Closure](javascript/Scope-and-Closure.md) | 2017-08-10 |
+| 31. [Eval function and with block](javascript/Eval-function-and-with-block.md) | 2017-08-10 |
+| 32. [Define property of an object in hacking way](javascript/Define-property-of-an-object-in-hacking-way.md) | 2018-01-07 |
+| 33. [Debug js code using console.trace](javascript/Debug-js-code-using-console.trace.md) | 2018-01-07 |
 | 34. [Tracking changes of cookie on webpage](javascript/Tracking-changes-of-cookie-on-webpage.md) | 2018-01-10 |
 | 35. [Trigger event after setting val in jQuery](javascript/Trigger-event-after-setting-val-in-jQuery.md) | 2018-01-14 |
 | :books: **linux** [ 4 articles ] | |
@@ -104,8 +104,8 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 64. [Reference assign object variable](python/Reference-assign-object-variable.md) | 2015-12-04 |
 | 65. [HTTP2 supported for python requests library](python/HTTP2-supported-for-python-requests-library.md) | 2017-08-04 |
 | 66. [Exporting environment variables on virtual env activate](python/Exporting-environment-variables-on-virtual-env-activate.md) | 2018-04-30 |
-| 67. [Context Managers in Python](python/Context-Managers.md) | 2018-07-24 |
-| 68. [Do not use mutable objects as default parameters](python/Do-not-use-mutable-objects-as-default-parameters.md) | 2018-07-24 |
+| 67. [Do not use mutable objects as default parameters](python/Do-not-use-mutable-objects-as-default-parameters.md) | 2018-07-24 |
+| 68. [Context Managers in Python](python/Context-Managers.md) | 2018-07-24 |
 | 69. [Setter and getter behavior of class property in Python3](python/Setter-and-getter-behavior-of-class-property-in-Python3.md) | 2018-07-30 |
 | :books: **quote** [ 1 articles ] | |
 | 70. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
@@ -124,12 +124,12 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 81. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
 | 82. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
 | 83. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
-| 84. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
-| 85. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
-| 86. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
-| 87. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
-| 88. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
-| 89. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
+| 84. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
+| 85. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
+| 86. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
+| 87. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
+| 88. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
+| 89. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
 | 90. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
 | 91. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
 | 92. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
@@ -142,8 +142,8 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 99. [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) | 2018-03-25 |
 | 100. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
 | 101. [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) | 2018-03-25 |
-| 102. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
-| 103. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
+| 102. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
+| 103. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
 | 104. [View DNS history of a domain](sysadmin/View-DNS-history-of-a-domain.md) | 2018-05-08 |
 | 105. [Curl override Name Resolution with specific IP address](sysadmin/Curl-override-Name-Resolution-with-specific-IP-address.md) | 2018-08-18 |
 | :books: **tools** [ 2 articles ] | |
@@ -193,7 +193,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 
 # License
 
-© 2015 khanhicetea.
+© 2018 khanhicetea.
 Distributed under the [Creative Commons Attribution License][license].
 
 [license]: http://creativecommons.org/licenses/by/3.0/
