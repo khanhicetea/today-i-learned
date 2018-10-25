@@ -15,6 +15,7 @@ fetch('https://some.thing/has/data')
 	if (res.headers.get('status') == '304 Not Modified') {
 		return null;
 	}
+	return res.json();
 })
 .then(function (data) {
 	if (data == null) return;
