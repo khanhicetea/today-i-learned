@@ -15,6 +15,7 @@ description = "I learned on {learn_date} about {topics}"
 categories = {categories}
 tags = {tags}
 image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 '''
