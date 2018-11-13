@@ -3,9 +3,9 @@
 
 ## Telnet server through SSL or TLS
 
-I often use `telnet` and `netcat` to debug my TCP server and client. But these tool only supports plain connection, mean every data transfer between server and client is unencrypted and unsafe.
+I often use `telnet` and `netcat` to debug my TCP server and client. But these tool only support plain connection, mean every data transfer between server and client is unencrypted and unsafe.
 
-So if you want to achieve the same result through SSL and TLS connection, use this command
+So if you want to achieve the same result through secure connection (SSL or TLS), use this command
 
 ```bash
 $ openssl s_client -host example.com -port 443
@@ -21,7 +21,7 @@ function telnets() {
 }
 ```
 
-then I just type this on bash, same syntax with `telnet`
+then I just type this on bash shell within same syntax of `telnet`
 
 ```bash
 $ telnets github.com 443
