@@ -11,6 +11,6 @@ Example :
 >> function hello(name) { return "Hello " + name; }
 
 >> hello.toSource();
-<- function hello(name) { return "Hello " + name; }
+<- "function hello(name) { return \"Hello \" + name; }"
 ```
 
