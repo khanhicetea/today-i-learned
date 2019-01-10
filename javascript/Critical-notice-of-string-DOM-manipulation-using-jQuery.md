@@ -5,7 +5,7 @@
 
 Sometimes you want to manipulate the HTML DOM elements inside as a string, then you found a lot of HTML parser or DOM library from the Internet (but it supports only NodeJS). How to do it in a browser ?
 
-The answer is "jQuery is best your friend in browser environment" :)
+The answer is "jQuery is your best friend in browser environment" :)
 
 Then you try this :
 
