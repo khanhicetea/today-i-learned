@@ -30,7 +30,7 @@ Error loading shared library libgcc_s.so.1: No such file or directory (needed by
 
 So we need to install `libstdc++` and `libc6-compat` before run the binary
 
-```Dockerfile
+```
 RUN apk add --no-cache libstdc++ libc6-compat
 ```
 

@@ -72,7 +72,7 @@ def convert_til_2_hugo(source, dest):
                 article = parse_article(part.strip(), cat)
                 title = article['title'].decode('utf-8')
                 article_date = article['date']
-                post_date = article_date.replace(hour=23, minute=59, second=59)
+                post_date = article_date.replace(hour=0, minute=0, second=1)
                 article_categories = ['Today I learned']
                 tags = []
 
