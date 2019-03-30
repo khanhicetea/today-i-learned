@@ -3,9 +3,9 @@
 
 ## Run container processes as non-root user
 
-As default, docker runs your container as root user (uid=0). Although docker isolates your filesystem to protect docker host, but running processes as root is redundant and increasing attack surface. Even it can make its written files having root owner, which can mess your docker-host filesystem permission.
+As default, docker runs your container as root user (uid=0). Although docker isolates your filesystem to protect docker host, but running processes as root is redundant and increasing attacking surface. Even it can make its written files having root owner, which can mess your docker-host filesystem permission.
 
-This is example that show docker run as root
+This is example that show docker runs as root
 
 ```bash
 $ docker run --rm alpine sleep 30
