@@ -24,7 +24,7 @@ You can see that the process **sleep 30** is running as root with pid = 15610
 
 ----
 
-So how we control which user docker container run as, just try `--user [userid]:[groupid]` argument
+To control which user docker container runs as, you can use the `--user [userid]:[groupid]` argument
 
 Example
 
