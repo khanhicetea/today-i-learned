@@ -9,3 +9,5 @@ You can change the default list into new one near your country. Get example : if
 
 Then run `sudo apt update` to test your new mirror :)
 
+**TIP** : you can generate the new source list file based on this online tool : https://repogen.simplylinux.ch/generate.php
+
