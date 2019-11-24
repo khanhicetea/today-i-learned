@@ -7,14 +7,15 @@ import json
 from datetime import datetime
 
 
-TIL_FOLDER = '../khanhicetea.com/content/til'
-DOC_CONTENT = u'''+++
-date = "{post_date}"
-title = "#TIL : {title}"
-description = "I learned on {learn_date} about {topics}"
-categories = {categories}
-tags = {tags}
-+++
+TIL_FOLDER = '../khanhicetea.com/source/_posts'
+DOC_CONTENT = u'''---
+date: "{post_date}"
+title: "#TIL : {title}"
+description: "I learned on {learn_date} about {topics}"
+categories: {categories}
+tags: {tags}
+layout: til
+---
 
 '''
 
@@ -39,7 +40,7 @@ def parse_article(content, category):
         "date": datetime.strptime(content[pos1+9:pos2].strip(), "%Y-%m-%d"),
         "category": category,
         "tags": [t[1:] for t in content[pos2+9:pos3].strip().split(' ')],
-        "content": content[pos3:].strip(),
+        "content": content[pos5:].strip(),
         "title": content[pos4+3:pos5].strip(),
     }
 
@@ -76,7 +77,7 @@ def convert_til_2_hugo(source, dest):
                 article_categories = ['Today I learned']
                 tags = []
 
-                content = "\n\n" + article['content'] + "\n"
+                content = "\n" + article['content'] + "\n"
                 
                 article_categories.append(article['category'])
                 for tag in article['tags']:

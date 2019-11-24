@@ -1,7 +1,7 @@
 - Date : 2019-04-03
 - Tags : #devops #apt #packagemanager
 
-## Improve apt package manager speed by changi by changing source list mirrors
+## Improve apt package manager speed by changing source list mirrors
 
 Sometimes, you ran into issues that apt update package list so slow or even can not connect to the destination server.
 

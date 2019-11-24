@@ -15,5 +15,5 @@ Use `JSON.parse("[your data in json string]")` if your data is big (>10KB for in
 
 https://www.youtube.com/watch?v=ff4fgQxPaO0
 
-{{< youtube ff4fgQxPaO0 >}}
+{% youtube ff4fgQxPaO0 %}
 
