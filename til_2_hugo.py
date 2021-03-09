@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 
 
-TIL_FOLDER = '../khanhicetea.com/source/_posts'
+TIL_FOLDER = '../kit/content/posts'
 DOC_CONTENT = u'''---
 date: "{post_date}"
 title: "#TIL : {title}"
