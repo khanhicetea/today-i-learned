@@ -70,7 +70,7 @@ def convert_til_2_readme(source, template_file, dest):
     content += cat_content
     format_content = read_entire_file(template_file)
     write_content = format_content.replace('{TOC}', content)
-    write_entire_file(dest, write_content.decode('utf-8'))
+    write_entire_file(dest, write_content)
 
 
 if __name__ == '__main__':
