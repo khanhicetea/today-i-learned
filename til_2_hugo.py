@@ -71,7 +71,7 @@ def convert_til_2_hugo(source, dest):
             parts = raw.split('/--------------------/')
             for part in parts:
                 article = parse_article(part.strip(), cat)
-                title = article['title'].decode('utf-8')
+                title = article['title']
                 article_date = article['date']
                 post_date = article_date.replace(hour=0, minute=0, second=1)
                 article_categories = ['Today I learned']
@@ -97,7 +97,7 @@ def convert_til_2_hugo(source, dest):
                         date=article_date.date().isoformat(),
                         title=slugify(title)
                     )),
-                    raw_file + content.decode('utf-8')
+                    raw_file + content
                 )
 
 

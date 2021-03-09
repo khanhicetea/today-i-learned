@@ -13,7 +13,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Insert fastly current date time to cell](google-sheet/insert-fastly-current-date-time-to-cell.md) [google-sheet] | 2021-03-09 |
+| [Insert fastly current date time to cell in Google Spreadsheets](google-sheet/insert-fastly-current-date-time-to-cell.md) [google-sheet] | 2021-03-09 |
 | [JSON Parse is faster than Javascript Object declaration](javascript/json-parse-is-faster-than-javascript-object-declaration.md) [javascript] | 2019-11-23 |
 | [Improve apt package manager speed by changing source list mirrors](devops/improve-apt-package-manager-speed-by-changi-by-changing-source-list-mirrors.md) [devops] | 2019-04-03 |
 | [Use NGINX as a TCP,UDP load balancer](networking/use-nginx-as-a-tcp,udp-load-balancer.md) [networking] | 2019-04-03 |
@@ -59,7 +59,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 29. [Put .git data outside project directory](git/Put-.git-data-outside-project-directory.md) | 2018-05-29 |
 | 30. [Running git command using another ssh key](git/Running-git-command-using-another-ssh-key.md) | 2018-06-26 |
 | :books: **google-sheet** [ 1 articles ] | |
-| 31. [Insert fastly current date time to cell](google-sheet/insert-fastly-current-date-time-to-cell.md) | 2021-03-09 |
+| 31. [Insert fastly current date time to cell in Google Spreadsheets](google-sheet/insert-fastly-current-date-time-to-cell.md) | 2021-03-09 |
 | :books: **http** [ 3 articles ] | |
 | 32. [ab failed responses](http/ab-failed-responses.md) | 2017-04-21 |
 | 33. [Create cross-platform downloading app URL](http/Create-crossplatform-downloading-app-URL.md) | 2018-01-03 |

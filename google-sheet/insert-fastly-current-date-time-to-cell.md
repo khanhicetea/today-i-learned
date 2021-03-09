@@ -1,7 +1,7 @@
 - Date : 2021-03-09
 - Tags : #google-sheet #datetime #tricks #productivity
 
-## Insert fastly current date time to cell
+## Insert fastly current date time to cell in Google Spreadsheets
 
 Yo! Back to my #TIL
 
