@@ -12,7 +12,6 @@ DOC_CONTENT = u'''---
 date: "{post_date}"
 title: "#TIL : {title}"
 description: "I learned on {learn_date} about {topics}"
-categories: {categories}
 tags: {tags}
 layout: post
 ---
@@ -89,9 +88,9 @@ def convert_til_2_11ty(source, dest):
                     title=title,
                     learn_date=article_date.date().isoformat(),
                     post_date=post_date.strftime('%Y-%m-%dT%H:%M:%S'),
-                    topics=", ".join(set(sorted_tags)),
+                    topics=", ".join(sorted_tags),
                     categories=json.dumps(list(set(article_categories))),
-                    tags=json.dumps(list(set(sorted_tags)))
+                    tags=json.dumps(sorted_tags)
                 )
 
                 write_entire_file(
