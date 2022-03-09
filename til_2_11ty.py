@@ -1,5 +1,5 @@
 # encoding: utf-8
-#!/bin/env/python
+#!/bin/env/python3
 import os
 import re
 import codecs
@@ -7,14 +7,14 @@ import json
 from datetime import datetime
 
 
-TIL_FOLDER = '../kit/content/posts'
+TIL_FOLDER = '../blog/src/til'
 DOC_CONTENT = u'''---
 date: "{post_date}"
 title: "#TIL : {title}"
 description: "I learned on {learn_date} about {topics}"
 categories: {categories}
 tags: {tags}
-layout: til
+layout: post
 ---
 
 '''
@@ -59,7 +59,7 @@ def slugify(s):
     return s
 
 
-def convert_til_2_hugo(source, dest):
+def convert_til_2_11ty(source, dest):
     excluded_folders = [".git", TIL_FOLDER]
     categories = [f for f in os.listdir(source) if os.path.isdir(f) and f not in excluded_folders]
 
@@ -83,13 +83,15 @@ def convert_til_2_hugo(source, dest):
                 for tag in article['tags']:
                     tags.append(tag)
 
+                sorted_tags = sorted(tags)
+
                 raw_file = DOC_CONTENT.format(
                     title=title,
                     learn_date=article_date.date().isoformat(),
                     post_date=post_date.strftime('%Y-%m-%dT%H:%M:%S'),
-                    topics=", ".join(set(tags)),
+                    topics=", ".join(set(sorted_tags)),
                     categories=json.dumps(list(set(article_categories))),
-                    tags=json.dumps(list(set(tags)))
+                    tags=json.dumps(list(set(sorted_tags)))
                 )
 
                 write_entire_file(
@@ -103,5 +105,5 @@ def convert_til_2_hugo(source, dest):
 
 if __name__ == '__main__':
     cwd = os.getcwd()
-    convert_til_2_hugo(cwd, os.path.join(cwd, TIL_FOLDER))
+    convert_til_2_11ty(cwd, os.path.join(cwd, TIL_FOLDER))
     print("Converted !")

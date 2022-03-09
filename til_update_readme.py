@@ -1,5 +1,5 @@
 # encoding: utf-8
-#!/bin/env/python
+#!/bin/env/python3
 import os
 import codecs
 import json

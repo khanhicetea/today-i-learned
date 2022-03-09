@@ -3,4 +3,5 @@
 echo 'Running pre-commit hook' 
 
 python3 til_update_readme.py
+python3 til_2_11ty.py
 git add README.md
