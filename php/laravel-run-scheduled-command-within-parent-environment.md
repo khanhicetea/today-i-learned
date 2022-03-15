@@ -7,7 +7,7 @@ Last day I updated my Laravel app from version 8 to 9, all my scheduled command 
 
 Example, I have 2-3 enviroment which I run cronjob like
 
-```
+```bash
 * * * * * php artisan schedule:run --env=hello
 * * * * * php artisan schedule:run --env=world
 ```
@@ -21,11 +21,11 @@ class Kernel extends ConsoleKernel
 {
     protected function schedule(Schedule $schedule)
     {
-	// Added 2 lines
+        // Added 2 lines to get lamda function
         $env = app()->environment();
         $schedule_command = fn ($cmd) => $schedule->command($cmd, ['--env' => $env]);
 
-	// Then schedule using new lambda function
+        // Then schedule using new lambda function
         $schedule_command('check_product_stock')->everyTenMinutes();
         $schedule_command('run_job_queue')->everyMinute();
         $schedule_command('clean_old_data')->dailyAt('00:25');
