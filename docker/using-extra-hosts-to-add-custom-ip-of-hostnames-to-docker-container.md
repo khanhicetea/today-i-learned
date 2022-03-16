@@ -18,7 +18,7 @@ ff02::2 ip6-allrouters
 172.17.0.2      0bdcf2fb2216
 ```
 
-If you are using **docker-compose**, add the extra-hosts param like this
+If you use **docker-compose**, then add the extra-hosts param below the service you want
 
 ```yml
     extra_hosts:
