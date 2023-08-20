@@ -1,3 +1,8 @@
+- Date : 2023-08-20
+- Tags : #http #redirect #web
+
+## HTTP Status Codes : 301+302 vs 307+308
+
 - HTTP 307 : Temporary redirect, keep METHOD and BODY
 - HTTP 308 : Permanent redirect, keep METHOD and BODY
 
