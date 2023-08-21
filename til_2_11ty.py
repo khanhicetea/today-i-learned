@@ -1,5 +1,4 @@
-# encoding: utf-8
-#!/bin/env/python3
+#!/usr/bin/env python3
 import os
 import re
 import codecs
@@ -12,6 +11,7 @@ DOC_CONTENT = u'''---
 date: "{post_date}"
 title: "#TIL : {title}"
 description: "I learned on {learn_date} about {topics}"
+category: til
 tags: {tags}
 layout: post
 ---
