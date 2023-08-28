@@ -1,7 +1,7 @@
 - Date : 2023-08-28
 - Tags : js svelte frontend
 
-## Reactivity via assignment variable
+## SvelteJS : Reactivity via variable assignment
 
 Reactivity in Svelte works via assignment of variable, so we have this as example
 

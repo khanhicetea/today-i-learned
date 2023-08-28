@@ -13,7 +13,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
-| [Reactivity via assignment variable](svelte/reactivity-via-assignment-variable.md) [svelte] | 2023-08-28 |
+| [SvelteJS : Reactivity via variable assignment](svelte/reactivity-via-assignment-variable.md) [svelte] | 2023-08-28 |
 | [Array group by function in JS](js/array-group-by-function-in-js.md) [js] | 2023-08-25 |
 | [CSS Selector element has an attribute which contains some string](css/css-selector-element-has-an-attribute-which-contains-some-string.md) [css] | 2023-08-21 |
 | [HTTP Status Codes : 301+302 vs 307+308](http/http-status-307-and-308-vs-301-and-302.md) [http] | 2023-08-20 |
@@ -142,7 +142,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **redis** [ 1 articles ] | |
 | 96. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
 | :books: **svelte** [ 1 articles ] | |
-| 97. [Reactivity via assignment variable](svelte/reactivity-via-assignment-variable.md) | 2023-08-28 |
+| 97. [SvelteJS : Reactivity via variable assignment](svelte/reactivity-via-assignment-variable.md) | 2023-08-28 |
 | :books: **sysadmin** [ 34 articles ] | |
 | 98. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
 | 99. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
