@@ -9,7 +9,7 @@ The DOM event handling go through 2 phrases : Capture and Bubble (with support o
 
 Try the demo here : https://svelte.dev/repl/99d1edbf7bd9426384be2c7763d2e872?version=4.2.0
 
-```
+```js
 <script>
 	const onClickEle = (e) => {
 		console.log("Clicked " + e.currentTarget.tagName)
