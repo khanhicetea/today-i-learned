@@ -18,7 +18,7 @@ Try the demo here : https://svelte.dev/repl/99d1edbf7bd9426384be2c7763d2e872?ver
 
 <h5>Default (bubble)</h5>
 <div on:click={onClickEle}>
-	<button on:click|stopPropagation={onClickEle}>Click here!</button>
+	<button on:click={onClickEle}>Click here!</button>
 </div>
 
 <h5>Default (bubble with stopPropagation)</h5>
