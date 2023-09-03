@@ -38,7 +38,7 @@ def parse_article(content, category):
     post = {
         "date": datetime.strptime(content[pos1+9:pos2].strip(), "%Y-%m-%d"),
         "category": category,
-        "tags": [t[1:] for t in content[pos2+9:pos3].strip().split(' ')],
+        "tags": [t.strip('#') for t in content[pos2+9:pos3].strip().split(' ')],
         "content": content[pos5:].strip(),
         "title": content[pos4+3:pos5].strip(),
     }
