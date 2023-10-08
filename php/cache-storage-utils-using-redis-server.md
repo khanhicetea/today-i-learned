@@ -22,16 +22,17 @@ class CacheStorage
     public function remember($key, $ttl, $dataFn)
     {
         try {
-            $cached = $this->redis->get($key);
+            $cached_str = $this->redis->get($key);
+            $cached = is_null($cached_str) ? false : unserialize($cached_str);
 
             if ($cached) {
-                return unserialize($cached);
+                return $cached;
             }
 
-            $data = $dataFn();
-            $this->redis->set($key, serialize($data), "ex", $ttl);
+            $freshData = $dataFn();
+            $this->redis->set($key, serialize($freshData), "ex", $ttl);
 
-            return $data;
+            return $freshData;
         } catch (PredisException $e) {
             return $dataFn();
         }
