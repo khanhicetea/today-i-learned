@@ -1,5 +1,5 @@
 - Date : 2023-10-13
-- Tags : #os #macos
+- Tags : #os #macos #software
 
 ## Warning on MacOS upgrade major system
 
