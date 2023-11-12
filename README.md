@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Reactive statement explicit dependencies like React useEffect](svelte/reactive-statement-explicit-dependencies-like-react-useeffect.md) [svelte] | 2023-11-12 |
 | [Warning on MacOS upgrade major system](mac-osx/warning-on-macos-upgrade-major-system.md) [mac-osx] | 2023-10-13 |
 | [Cache storage utils using redis server](php/cache-storage-utils-using-redis-server.md) [php] | 2023-10-08 |
 | [Getting database from data range to array of enum objects](apps-script/getting-database-from-data-range-to-array-of-enum-objects.md) [apps-script] | 2023-09-03 |
 | [JS DOM event deepdive using SvelteJS demo](js/js-dom-event-deepdive-using-sveltejs-demo.md) [js] | 2023-09-01 |
-| [ES6 Module import in client browsers](js/es6-module-import-in-client-browsers.md) [js] | 2023-08-29 |
 | :books: **ansible** [ 1 articles ] | |
 | 1. [Run shell command in all hosts](ansible/Run-shell-command-in-all-hosts.md) | 2019-02-18 |
 | :books: **apps-script** [ 1 articles ] | |
@@ -147,59 +147,60 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 100. [Random quote 23 Feb 2017](quote/random-quote-23-feb-2017.md) | 2017-02-23 |
 | :books: **redis** [ 1 articles ] | |
 | 101. [Transaction style in Redis](redis/Transaction-style-in-Redis.md) | 2018-01-31 |
-| :books: **svelte** [ 1 articles ] | |
+| :books: **svelte** [ 2 articles ] | |
 | 102. [SvelteJS : Reactivity via variable assignment](svelte/reactivity-via-assignment-variable.md) | 2023-08-28 |
+| 103. [Reactive statement explicit dependencies like React useEffect](svelte/reactive-statement-explicit-dependencies-like-react-useeffect.md) | 2023-11-12 |
 | :books: **sysadmin** [ 34 articles ] | |
-| 103. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
-| 104. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
-| 105. [Commands](sysadmin/Commands.md) | 2015-12-30 |
-| 106. [Bash shell shortcuts](sysadmin/Bash-shell-shortcuts.md) | 2016-03-26 |
-| 107. [Stats your top-10 frequently commands](sysadmin/Stats-your-top-10-commands.md) | 2016-03-26 |
-| 108. [Compressing and Extracting files with rar in Linux](sysadmin/Compressing-and-Extracting-files-with-rar-in-Linux.md) | 2017-05-17 |
-| 109. [Grant user to use sudo without password](sysadmin/Grant-user-to-use-sudo-without-password.md) | 2017-05-18 |
-| 110. [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
-| 111. [Using BSD find util to find and exec command on file and folder](sysadmin/Using-BSD-find-util-to-find-and-exec-command-on-file-and-folder.md) | 2017-05-22 |
-| 112. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
-| 113. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
-| 114. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
-| 115. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
-| 116. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
-| 117. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
-| 118. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
-| 119. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
-| 120. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
-| 121. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
-| 122. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
-| 123. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
-| 124. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
-| 125. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
-| 126. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
-| 127. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
-| 128. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
-| 129. [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) | 2018-03-01 |
-| 130. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
-| 131. [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) | 2018-03-25 |
-| 132. [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) | 2018-03-25 |
-| 133. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
-| 134. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
-| 135. [View DNS history of a domain](sysadmin/View-DNS-history-of-a-domain.md) | 2018-05-08 |
-| 136. [Curl override Name Resolution with specific IP address](sysadmin/Curl-override-Name-Resolution-with-specific-IP-address.md) | 2018-08-18 |
+| 104. [FTP via curl tool](sysadmin/FTP-via-curl-tool.md) | 2015-12-03 |
+| 105. [View real-time logs using websocketd](sysadmin/View-real-time-logs-using-websocketd.md) | 2015-12-04 |
+| 106. [Commands](sysadmin/Commands.md) | 2015-12-30 |
+| 107. [Bash shell shortcuts](sysadmin/Bash-shell-shortcuts.md) | 2016-03-26 |
+| 108. [Stats your top-10 frequently commands](sysadmin/Stats-your-top-10-commands.md) | 2016-03-26 |
+| 109. [Compressing and Extracting files with rar in Linux](sysadmin/Compressing-and-Extracting-files-with-rar-in-Linux.md) | 2017-05-17 |
+| 110. [Grant user to use sudo without password](sysadmin/Grant-user-to-use-sudo-without-password.md) | 2017-05-18 |
+| 111. [wget Output flag](sysadmin/wget-Output-flag.md) | 2017-05-19 |
+| 112. [Using BSD find util to find and exec command on file and folder](sysadmin/Using-BSD-find-util-to-find-and-exec-command-on-file-and-folder.md) | 2017-05-22 |
+| 113. [zcat : decompressing pipe tool](sysadmin/zcat-:-decompressing-pipe-tool.md) | 2017-05-22 |
+| 114. [Gearman bash worker and client](sysadmin/gearman-bash-worker-and-client.md) | 2017-06-15 |
+| 115. [Cleaning up old linux kernels](sysadmin/Cleaning-up-old-linux-kernels.md) | 2017-08-06 |
+| 116. [Create SSH tunnel manually](sysadmin/create-ssh-tunnel-manually.md) | 2017-09-01 |
+| 117. [Enable reverse proxy in CentOS](sysadmin/enable-reverse-proxy-in-centos.md) | 2017-09-01 |
+| 118. [Ansible playbook : skip to task](sysadmin/ansible-:-skip-to-task.md) | 2017-09-05 |
+| 119. [Grep : find a string in folder](sysadmin/grep-:-find-a-string-in-folder.md) | 2017-09-05 |
+| 120. [Lock and unlock a user password](sysadmin/lock-and-unlock-a-user-password.md) | 2017-09-07 |
+| 121. [Generate dhparam file faster](sysadmin/generate-dhparam-file-faster.md) | 2017-09-07 |
+| 122. [Blocking specified country to prevent from DDOS](sysadmin/blocking-specified-country-to-prevent-from-ddos.md) | 2017-09-25 |
+| 123. [BASH exiting on first error](sysadmin/bash-exiting-on-first-error.md) | 2017-09-26 |
+| 124. [BASH return a value in function](sysadmin/bash-return-a-value-in-function.md) | 2017-09-26 |
+| 125. [BASH tracing commands](sysadmin/BASH-tracing-commands.md) | 2017-09-27 |
+| 126. [TIME command output meaning](sysadmin/time-command-output-meaning.md) | 2017-10-04 |
+| 127. [Using netcat as tiny TCP debug tool](sysadmin/using-netcat-as-tiny-tcp-debug-tool.md) | 2017-10-07 |
+| 128. [Getting your external IP](sysadmin/Getting-your-external-IP.md) | 2017-11-24 |
+| 129. [Use journalctl to check system logs](sysadmin/Use-journalctl-to-check-system-logs.md) | 2018-01-22 |
+| 130. [Prevent source hacking from .git directory exposing](sysadmin/prevent-source-hacking-from-.git-directory-exposing.md) | 2018-03-01 |
+| 131. [Cut file content from line to line](sysadmin/Cut-file-content-from-line-to-line.md) | 2018-03-25 |
+| 132. [Prepend line number to file](sysadmin/Prepend-line-number-to-file.md) | 2018-03-25 |
+| 133. [Create a sequence of numbers](sysadmin/Create-a-sequence-of-numbers.md) | 2018-03-25 |
+| 134. [Send a file through networking via netcat](sysadmin/Send-a-file-through-networking-via-netcat.md) | 2018-04-10 |
+| 135. [Create tiny chat channel via netcat](sysadmin/Create-tiny-chat-channel-via-netcat.md) | 2018-04-10 |
+| 136. [View DNS history of a domain](sysadmin/View-DNS-history-of-a-domain.md) | 2018-05-08 |
+| 137. [Curl override Name Resolution with specific IP address](sysadmin/Curl-override-Name-Resolution-with-specific-IP-address.md) | 2018-08-18 |
 | :books: **tools** [ 2 articles ] | |
-| 137. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
-| 138. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
+| 138. [Base 64 encode and decode builtin tool](tools/base-64-encode-and-decode-builtin-tool.md) | 2017-04-21 |
+| 139. [Zip compressing list of files](tools/zip-compressing-list-of-files.md) | 2017-09-25 |
 | :books: **varnish** [ 1 articles ] | |
-| 139. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
+| 140. [Check vcl file syntax before restarting](varnish/Check-vcl-file-syntax-before-restarting.md) | 2018-01-31 |
 | :books: **vim** [ 2 articles ] | |
-| 140. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
-| 141. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
+| 141. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
+| 142. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
 | :books: **web** [ 7 articles ] | |
-| 142. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
-| 143. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
-| 144. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
-| 145. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
-| 146. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
-| 147. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
-| 148. [Can not get real IP address from Load Balancer SSL Passthrough](web/Can-not-get-real-IP-address-from-Load-Balancer-SSL-Passthrough.md) | 2019-03-14 |
+| 143. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
+| 144. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
+| 145. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
+| 146. [HSTS rule in browser](web/HSTS-rule-in-browser.md) | 2018-01-03 |
+| 147. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
+| 148. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
+| 149. [Can not get real IP address from Load Balancer SSL Passthrough](web/Can-not-get-real-IP-address-from-Load-Balancer-SSL-Passthrough.md) | 2019-03-14 |
 
 
 # Instruction
