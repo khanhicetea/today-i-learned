@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [Smallest inline dummy image in HTML](web/smallest-inline-dummy-image-in-html.md) [web] | 2024-01-15 |
 | [Transform array to object shorthand](php/transform-array-to-object-shorthand.md) [php] | 2023-12-08 |
 | [Be careful when using built-in btoa from window to decode base64](js/be-careful-when-using-built-in-btoa-from-window-to-decode-base64.md) [js] | 2023-11-29 |
 | [Split a Collection items into 2 groups using 1 boolean function](laravel/split-a-collection-into-2-groups-using-1-boolean-function.md) [laravel] | 2023-11-25 |
 | [Reactive statement explicit dependencies like React useEffect](svelte/reactive-statement-explicit-dependencies-like-react-useeffect.md) [svelte] | 2023-11-12 |
-| [Warning on MacOS upgrade major system](mac-osx/warning-on-macos-upgrade-major-system.md) [mac-osx] | 2023-10-13 |
 | :books: **ansible** [ 1 articles ] | |
 | 1. [Run shell command in all hosts](ansible/Run-shell-command-in-all-hosts.md) | 2019-02-18 |
 | :books: **apps-script** [ 1 articles ] | |
@@ -197,7 +197,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **vim** [ 2 articles ] | |
 | 144. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
 | 145. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
-| :books: **web** [ 7 articles ] | |
+| :books: **web** [ 8 articles ] | |
 | 146. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
 | 147. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
 | 148. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
@@ -205,6 +205,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 150. [Bypass CORS by using JSONP callback](web/Bypass-CORS-by-using-JSONP-callback.md) | 2018-01-08 |
 | 151. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
 | 152. [Can not get real IP address from Load Balancer SSL Passthrough](web/Can-not-get-real-IP-address-from-Load-Balancer-SSL-Passthrough.md) | 2019-03-14 |
+| 153. [Smallest inline dummy image in HTML](web/smallest-inline-dummy-image-in-html.md) | 2024-01-15 |
 
 
 # Instruction
