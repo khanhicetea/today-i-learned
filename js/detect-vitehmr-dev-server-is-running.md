@@ -1,5 +1,5 @@
 - Date : 2024-08-04
-- Tags : #js #web #vite #hmr
+- Tags : js web vite hmr
 
 ## Detect ViteHMR dev server is running
 
