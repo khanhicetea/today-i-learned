@@ -59,7 +59,7 @@ mem("end");
 
 This is the result
 
-```
+```shell
 start : 469464 bytes
 after create an object A : 1137200 bytes
 inside func haha, after func_get_args : 1137200 bytes
