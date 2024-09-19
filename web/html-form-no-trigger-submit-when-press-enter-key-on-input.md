@@ -13,7 +13,6 @@ This form will not submit on Enter
 <form action="abc.php" id="form1">
   <input type="text" name="email">
   <input type="text" name="username">
-  <button type="button" name="_action" value="hi">Hi</button>
 </form>
 ```
 
