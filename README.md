@@ -13,11 +13,11 @@ This repo has a tool that help you to manage and write down what you learned in 
 | Table of Contents | :point_down: |
 | -------- | -------- |
 | :new: **Top 5 recent learning** | |
+| [HTML Form no trigger submit when press Enter key on input](web/html-form-no-trigger-submit-when-press-enter-key-on-input.md) [web] | 2024-09-19 |
 | [Using Curl to check downtime and ssl cert expiration](bash/using-curl-to-check-downtime-and-ssl-cert-expiration.md) [bash] | 2024-08-10 |
 | [PHP memory allocation when passing arguments into function](php/php-memory-allocation-when-passing-arguments-into-function.md) [php] | 2024-08-06 |
 | [Detect ViteHMR dev server is running](js/detect-vitehmr-dev-server-is-running.md) [js] | 2024-08-04 |
 | [Script tags in remote HTML request won't run when using innerHTML](javascript/script-tags-in-remote-html-request-wont-run-when-using-innerhtml.md) [javascript] | 2024-05-06 |
-| [Cronjob monitoring web endpoint and alert to Telegram](devops/cronjob-monitoring-web-endpoint-and-alert-to-telegram.md) [devops] | 2024-04-12 |
 | :books: **ansible** [ 1 articles ] | |
 | 1. [Run shell command in all hosts](ansible/Run-shell-command-in-all-hosts.md) | 2019-02-18 |
 | :books: **apps-script** [ 1 articles ] | |
@@ -205,7 +205,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | :books: **vim** [ 2 articles ] | |
 | 151. [Using mark to bookmark checkpoints in files](vim/Using-mark-to-bookmark-checkpoints-in-files.md) | 2018-01-30 |
 | 152. [Convert tabs to spaces](vim/Convert-tabs-to-spaces.md) | 2018-02-21 |
-| :books: **web** [ 8 articles ] | |
+| :books: **web** [ 9 articles ] | |
 | 153. [Cloudflare Error 522 Connection Time out](web/Cloudflare-Error-522-Connection-Time-out.md) | 2017-05-18 |
 | 154. [Ping Google to crawl updated content](web/ping-google-to-crawl-updated-content.md) | 2017-08-08 |
 | 155. [Using web proxy to bypass firewalls](web/Using-web-proxy-to-bypass-firewalls.md) | 2017-12-07 |
@@ -214,6 +214,7 @@ This repo has a tool that help you to manage and write down what you learned in 
 | 158. [Sending Cookie in AJAX CORs request](web/sending-cookie-in-ajax-cors-request.md) | 2018-03-01 |
 | 159. [Can not get real IP address from Load Balancer SSL Passthrough](web/Can-not-get-real-IP-address-from-Load-Balancer-SSL-Passthrough.md) | 2019-03-14 |
 | 160. [Smallest inline dummy image in HTML](web/smallest-inline-dummy-image-in-html.md) | 2024-01-15 |
+| 161. [HTML Form no trigger submit when press Enter key on input](web/html-form-no-trigger-submit-when-press-enter-key-on-input.md) | 2024-09-19 |
 
 
 # Instruction
